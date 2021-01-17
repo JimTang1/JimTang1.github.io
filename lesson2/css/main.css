@@ -12,6 +12,7 @@ header, footer{
 header h1{
     font-size: 50px;
     padding:50px;
+    
 }
 
 .box1{
@@ -82,23 +83,34 @@ header h1{
     display: inline-block;
     width: 300px;
     color: #CD853F;
+    font-family: 'Oswald', sans-serif;
+    vertical-align: top;
 
 }
 .box2 .intro{
+    
     display: inline-block;
     width: 300px;
     color: #CD853F;
+    font-family: 'Oswald', sans-serif;
+    vertical-align: top;
+
 }
 .box3 .intro{
     display: inline-block;
     width: 300px;
     color: #CD853F;
+    font-family: 'Oswald', sans-serif;
+    vertical-align: top;
+
 }
 
 footer p.legal{
     margin-bottom: 9px;
     font-size: 20px;
     padding: 10px;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 footer p.highlight{
@@ -107,6 +119,8 @@ footer p.highlight{
     font-size: 20px;
     margin-top:0;
     padding: 10px;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 footer a{
@@ -115,26 +129,24 @@ footer a{
 
 
 @media(max-width: 600px){
-    main{
-        padding-left: 23px;
-    }
+
     .content{
-        max-width: 400px;
+        max-width: 375x;
         margin:0 auto;
     }
     .box1{
         display:block;
-        margin-left: 35px;
+        margin-left: 20px;
     }
 
     .box2{
         display: inline-block;
-        margin-left: 35px;
+        margin-left: 20px;
     }
     
     .box3{
         display: inline-block;
-        margin-left: 35px;
+        margin-left: 20px;
     }
     footer p.legal{
         margin-bottom: 9px;
