@@ -4,11 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    
+    <div class="content">
+        <header>
+            <h1>Design Principles</h1>
+        </header>
+
+        <main>
+            <div class="box1">
+                <h2>Wix: </h2>
+                <h2> Visual Hierarchy</h2>
+                <img src="./images/wix.jpg" alt="box1-image" class="box1-image">
+                
+                <hr>
+                <button onclick = "wixlink()" class="wix-btn">Visit Wix</button>
+                <br>
+                <div class="intro">
+                    <p>Hierarchy is a visual design principle which designers use to show the importance 
+                        of each page/screen’s contents by manipulating these characteristics:</p>
+                    <ul>
+                        <li>Size – Users notice larger elements more easily.</li>
+                        <li>Color – Bright colors typically attract more attention than muted ones.</li>
+                        <li>Contrast – Dramatically contrasted colors are more eye-catching.</li>
+                        <li>Alignment – Out-of-alignment elements stand out over aligned ones.</li>
+                        <li>Repetition – Repeating styles can suggest content is related.</li>
+                        <li>Proximity – Closely placed elements seem related.</li>
+                        <li>Whitespace – More space around elements draws the eye towards them.</li>
+                        <li>Texture and Style – Richer textures stand out over flat ones.</li>
+                    </lu>
+                </div>
+
+            </div>
+            <div class="box2">
+                <h2>Amazon: </h2>
+                <h2>Hick’s Law</h2>
+                <img src="./images/amazon.jpg" alt="box2-image" class="box2-image">
+            
+                <hr>
+                <button onclick = "amazonlink()" class="amazon-btn">Visit Amazon</button>
+                <br>
+                <div class="intro">
+                    <p>Hick’s Law guides UX designers to create effortless user experiences. 
+                        Here’s how to apply the law to your UX design.</p>
+                    <p>Hick’s Law states that the more choices a person is given, 
+                        the longer a person will take to reach a decision. Suddenly all that bread seems daunting.</p>
+                    <p>there’s a formula for that relationship:</p>
+
+                    <p>RT = a + b log2 (n)</p>
+                        
+                    <p>Don’t fret. This formula is simple when you get your head around it. 
+                        RT is just the reaction time, “a” is the total time that is not involved with decision making, 
+                        “b” is an empirically derived constant based on the cognitive process time for each option, 
+                        which for humans is 0.155 and (n) is the number of alternative stimuli.</p>
+                </div>
+                
+            </div>
+
+            <div class="box3">
+                <h2>Made: </h2>
+                <h2>White Space and Clean Design</h2>
+                <img src="./images/made.jpg" alt="box3-image" class="box3-image">
+                
+                <hr>
+                <button onclick = "madelink()" class = "made-btn">Visite Made</button>
+                <br>
+                <div class="intro">
+                    <p>White space or negative space is simply unmarked space in the design.
+                        It is the space between the layouts, lines of paragraphs, between paragraphs, 
+                        between different UI elements and so on. 
+                        
+                    </p>
+
+                    <p>“White Space in design composition is same as use of Silence in a musical composition.
+                         Without proportionate use of Silence, music is unstructured; some may call it noise.
+                          Similarly, without White Space, design is unstructured and difficult to consume”
+                    </p>
+                    <p>
+                        When used well it can transform not only the design but also the business for which the design is made.
+                         While aesthetics is one of the benefits, 
+                         others revolve around tangible impacts on the effectiveness of the page. In other words, 
+                        white space significantly boosts not only UI(User Interface) but also UX(User Experience) of the page.</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p class ="legal">&copy; <span id='copyrightyear'></span> | Wei Chun Tang | WDD230 Assignment | Click me: <a href="https://github.com/JimTang1/jimtang1.github.io"> GitHub link</a></p>
+            <p class ="highlight">Last Updated: <span id = "lastupdated"></span></p>
+        </footer>
+    </div>
     <script src="script/main.js"></script>
 </body>
 </html>
