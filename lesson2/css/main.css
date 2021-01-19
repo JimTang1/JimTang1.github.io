@@ -7,6 +7,7 @@ header, footer{
     background-color:#FAEBD7;
     color: burlywood;
     text-align: center;
+    font-family: 'Potta One', cursive;
 }
 
 header h1{
@@ -15,8 +16,13 @@ header h1{
     
 }
 
+.main-page{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
 .box1{
-    display: inline-block;
+    display: block;
     margin-left: 50px;
 }
 .box1 h2{
@@ -24,7 +30,7 @@ header h1{
 }
 
 .box2{
-    display: inline-block;
+    display: block;
     margin-left: 75px;
 }
 
@@ -33,7 +39,7 @@ header h1{
 }
 
 .box3{
-    display: inline-block;
+    display: block;
     margin-left: 75px;
 }
 
@@ -140,12 +146,12 @@ footer a{
     }
 
     .box2{
-        display: inline-block;
+        display: block;
         margin-left: 20px;
     }
     
     .box3{
-        display: inline-block;
+        display: block;
         margin-left: 20px;
     }
     footer p.legal{
