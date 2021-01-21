@@ -8,6 +8,11 @@ header, footer{
     border-radius: 15px;
 }
 
+footer {
+    clear:both;
+    text-align: center;
+}
+
 header h1{
    padding:30px;
    color:white; 
