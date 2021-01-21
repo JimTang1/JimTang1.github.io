@@ -49,3 +49,92 @@ header h1{
 .sunny, .cloudy, .rain, .stormy p{
     font-size: 25px;
 }
+
+/*------------------typography--------------------*/
+.font-style{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.typro-content{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.typro-content p{
+    text-align: left;
+    margin-left:30px;
+}
+
+.typro-content .font-f .f-cursive{
+    font-family: cursive;
+}
+
+.typro-content .font-f .f-fantasy{
+    font-family: fantasy;
+}
+
+.typro-content .font-f .f-fangsong{
+    font-family: fangsong;
+}
+
+.typro-content .font-s .big{
+    font-size: 30px;
+}
+.typro-content .font-s .mid{
+    font-size: 25px;
+}
+.typro-content .font-s .small{
+    font-size: 15px;
+}
+
+.typro-content .t-align .line1{
+    text-align: center;
+}
+.typro-content .t-align .line2{
+    text-align: left;
+}
+.typro-content .t-align .line3{
+    text-align: right;
+}
+
+.typro-content .t-color .red{
+    color:white;
+    background-color: red;
+}
+.typro-content .t-color .yellow{
+    color:black;
+    background-color: yellow;
+}
+.typro-content .t-color .green{
+    color:white;
+    background-color: green;
+}
+
+
+/*-------------------Audience------------------------*/
+.main-page{
+    margin:50px;
+}
+
+.climer{
+    display: flex;
+}
+
+.ski{
+    display: flex;
+}
+.climer .climer-img{
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+.ski .ski-img{
+    width: 350px;
+
+}
