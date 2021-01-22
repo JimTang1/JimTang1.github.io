@@ -5,7 +5,7 @@ header, footer{
     background-color: #6495ED;
     color: #EEE;
     padding: 8px;
-    border-radius: 15px;
+    
 }
 
 footer {
@@ -50,6 +50,9 @@ header h1{
     font-size: 25px;
 }
 
+.information{
+    margin-left: 50px;
+}
 /*------------------typography--------------------*/
 .font-style{
     width: 700px;
@@ -129,6 +132,11 @@ header h1{
 .ski{
     display: flex;
 }
+
+.surfer{
+    display: flex;
+}
+
 .climer .climer-img{
     width: 350px;
     margin-bottom: 50px;
@@ -136,5 +144,9 @@ header h1{
 
 .ski .ski-img{
     width: 350px;
+    margin-bottom: 50px;
+}
 
+.surfer .surfer-img{
+    width: 350px;
 }
