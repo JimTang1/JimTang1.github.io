@@ -1,0 +1,46 @@
+@media only screen and (min-width: 1000px){
+    header, footer{
+        max-width: 1500px;
+        margin: auto;
+    }
+    
+    nav{
+        max-width:1500px;
+    }
+
+    main{
+        max-width: 1500px;
+        margin: auto;
+    }
+    
+    .logo{
+        width: 150px;
+        height: 150px;
+        margin-left: 70px;
+    }
+    
+    .navigation{
+        font-size: 20px;
+    }
+    .header .motto{
+        margin:auto;
+    }
+    .motto h1{
+        font-size: 50px;
+    }
+
+    .motto span{
+        font-size: 25px;
+        margin: inherit;
+    }
+
+    .hero-img, .weather-sum, .forecast, .art, .contact {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    footer{
+        font-size: 17px;
+    }
+   
+}

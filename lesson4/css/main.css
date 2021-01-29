@@ -4,10 +4,75 @@ header, footer{
     text-align: center;
     font-family: 'Potta One', cursive;
 }
+
+.header{
+    display: flex;
+}
+
+.header h1{
+    font-size: 23px;
+    margin: 0px;
+}
+
+.header .motto{
+    margin: auto;
+}
+
+.header .motto span{
+    font-family: 'Dancing Script', cursive;
+}
+main{
+    text-align: center;
+}
+main h1{
+    font-family: 'Josefin Slab', serif;
+}
+
+
+section{
+    margin: 10px;
+    padding: 10px;
+}
+
+.hero-img{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+}
+
+.weather-sum{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+}
+
+.forecast{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+}
+
+.art{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+}
+
+.contact{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+}
+
+footer{
+    font-size: 12px;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+}
+
 nav{
     margin: 0 auto;
     max-width: 555px;
     background-color: #FAEBD7;
+    font-family: 'Saira Condensed', sans-serif;
 }
 
 .navigation{
@@ -45,37 +110,13 @@ nav{
     display: block;
 }
 
-@media only screen and (min-width:555px){
-    nav{
-        max-width: 100%;
-    }
-
-    .navigation{
-        
-        grid-template-columns: repeat(5,auto);
-    }
-
-    .navigation li{
-        display: block;
-    }
-
-    .navigation li a{
-        text-align: center;
-    }
-
-    .navigation li:first-child{
-        display: none;
-    }
+.legal{
+    padding: 10px 0;
+    margin: 0;
 }
 
-@media only screen and (min-width: 54.5em){
-    header, footer{
-        max-width: 1500px;
-        margin: auto;
-    }
-    
-    nav{
-        max-width:1500px;
-    }
-    
+.highlight{
+    padding-bottom: 10px;
+    margin: 0px;
 }
+
