@@ -1,5 +1,5 @@
 body {
-    background-color: #EEE;
+    background-color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -9,8 +9,8 @@ body {
 }
 
 header, footer{
-    background-color: rgb(132, 132, 202);
-    color: #EEE;
+    background-color: #FAEBD7;
+    color: burlywood;
     padding: 8px;
     border-radius: 15px;
 }
@@ -40,11 +40,11 @@ main ul {
 }
 
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active footer a:focus {
-    color: white;
+    color: burlywood;
 }
 
 footer a:hover{
-    color: white;
+    color: burlywood;
 }
 
 footer{
@@ -58,7 +58,7 @@ footer p.legal{
 }
 
 footer p.highlight{
-    color:lightyellow;
+    color: burlywood;
     font-size: .8em;
     margin-top:0;
 }
