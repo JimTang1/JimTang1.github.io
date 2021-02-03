@@ -21,6 +21,13 @@ header, footer{
 .header .motto span{
     font-family: 'Dancing Script', cursive;
 }
+
+nav .ham{
+    width: 35px;
+    position: absolute;
+    right: 10px;
+    top: 55px;
+}
 main{
     text-align: center;
 }
@@ -74,6 +81,14 @@ section{
     left: 5%;
 }
 
+.sunny-img5, .cloudy-img5, .rain-img5, .stormy-img5{
+    width: 55px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
 .forecast{
     background-color: wheat;
     font-family: 'Josefin Slab', serif;
@@ -92,6 +107,11 @@ section{
 footer{
     font-size: 12px;
 }
+
+footer h1{
+    color:black;
+}
+
 .logo{
     width: 75px;
     height: 75px;
