@@ -1,0 +1,152 @@
+header, footer{
+    background-color:#FAEBD7;
+    color: burlywood;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+}
+
+.header{
+    display: flex;
+}
+
+.header h1{
+    font-size: 23px;
+    margin: 0px;
+}
+
+.header .motto{
+    margin: auto;
+}
+
+.header .motto span{
+    font-family: 'Dancing Script', cursive;
+}
+main{
+    text-align: center;
+}
+main h1{
+    font-family: 'Josefin Slab', serif;
+}
+
+
+section{
+    margin: 10px;
+    padding: 10px;
+}
+
+.hero-img{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+}
+
+.hero-img .sand{
+    width: 100%;
+}
+
+.weather-sum{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+    position: relative;
+}
+
+.sunny-img, .cloudy-img, .rain-img, .stormy-img{
+    width: 65px;
+    position: absolute;
+}
+
+.sunny-img{
+    top: 4.5%;
+    left: 5%;
+}
+
+.cloudy-img{
+    top: 28.5%;
+    left: 5%;
+}
+
+.rain-img{
+    top: 45.5%;
+    left: 5%;
+}
+
+.stormy-img{
+    top: 71.5%;
+    left: 5%;
+}
+
+.forecast{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+}
+
+.art{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+}
+
+.contact{
+    background-color: wheat;
+    font-family: 'Josefin Slab', serif;
+}
+
+footer{
+    font-size: 12px;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+}
+
+nav{
+    margin: 0 auto;
+    max-width: 555px;
+    background-color: #FAEBD7;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.navigation{
+    list-style:none;
+    padding:0;
+    display: grid;
+    grid-template-columns: auto;    
+    margin:auto;
+
+}
+
+.navigation li:first-child{
+    display: block;
+}
+
+.navigation li{
+    display: none;
+}
+
+.navigation a:link, .navigation a:visited, .navigation a:hover, .navigation a:active, .navigation a:focus{
+    display: block;
+    padding: 0.75em;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.navigation a:hover{
+    color: white;
+    background-color: burlywood;
+}
+
+.navigation.responsive li{
+    display: block;
+}
+
+.legal{
+    padding: 10px 0;
+    margin: 0;
+}
+
+.highlight{
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
