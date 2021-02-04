@@ -28,3 +28,51 @@ window.addEventListener("load", (event)=>{
 
 });
 
+
+getDay =() =>{
+    let dayNow = new Date();
+    let day = dayNow.getDay();
+    console.log(day);
+
+    switch(day){
+        case 0:
+            newDay = "Sunday";
+            break;
+        case 1:
+            newDay = "Monday";
+            break;
+        case 2:
+            newDay = "Tuesday";
+            break;
+        case 3:
+            newDay = "Wednesday";
+            break;
+        case 4:
+            newDay = "Thursday";
+            break;
+          case 5:
+            newDay = "Friday";
+            break;
+          case 6:
+            newDay = "Saturday";
+            break;
+    }
+
+    document.querySelector(".today").textContent = "To day: " + newDay;
+}
+
+getDay();
+
+
+
+
+getBanner =() =>{
+    let banner = document.querySelector(".banner");
+    banner.textContent = 
+    `
+    Preston Pancakes in the Park!  
+    9:00 a.m. Saturday at the city park pavilion.
+    `;
+}
+
+getBanner();

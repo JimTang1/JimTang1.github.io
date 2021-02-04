@@ -1,12 +1,16 @@
+
 header, footer{
     background-color:#FAEBD7;
     color: burlywood;
     text-align: center;
     font-family: 'Potta One', cursive;
+    position: sticky;
 }
+
 
 .header{
     display: flex;
+    
 }
 
 .header h1{
@@ -28,6 +32,7 @@ nav .ham{
     right: 10px;
     top: 55px;
 }
+
 main{
     text-align: center;
 }
@@ -35,6 +40,16 @@ main h1{
     font-family: 'Josefin Slab', serif;
 }
 
+main .banner{
+    font-family: 'Saira Condensed';
+    color: brown;
+    font-style: oblique;
+    border-style: double;
+}
+
+main .today{
+    font-family: 'Saira Condensed';
+}
 
 section{
     margin: 10px;

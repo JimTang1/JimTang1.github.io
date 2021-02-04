@@ -9,6 +9,10 @@
         margin: auto;
     }
 
+    .sunny-img5, .cloudy-img5, .rain-img5, .stormy-img5 {
+        width: 100%;
+    }
+    
     .motto h1{
         font-size: 30px;
     }

@@ -39,6 +39,19 @@
         padding: 20px;
     }
 
+    .sunny-img, .cloudy-img, .rain-img, .stormy-img {
+        width: 145px;
+        left: 28%;
+    }
+
+    .cloudy-img {
+        top: 28.5%;
+    }
+
+    .rain-img {
+        top: 47.5%;
+    }
+    
     footer{
         font-size: 17px;
     }
