@@ -69,31 +69,20 @@ section{
     background-color: wheat;
     font-family: 'Josefin Slab', serif;
     position: relative;
+    text-align: left;
 }
 
-.sunny-img, .cloudy-img, .rain-img, .stormy-img{
-    width: 65px;
-    position: absolute;
+.weather-sum h2{
+    text-align: center;
 }
 
-.sunny-img{
-    top: 4.5%;
-    left: 5%;
+.weather-sum .weather-content{
+    display: flex;
+    text-align: end;
 }
 
-.cloudy-img{
-    top: 28.5%;
-    left: 5%;
-}
-
-.rain-img{
-    top: 45.5%;
-    left: 5%;
-}
-
-.stormy-img{
-    top: 71.5%;
-    left: 5%;
+.weather-sum .weather-content .temp{
+    width: 60px;
 }
 
 .sunny-img5, .cloudy-img5, .rain-img5, .stormy-img5{
@@ -114,6 +103,9 @@ table, th, td {
     font-family: 'Josefin Slab', serif;
 }
 
+.sand-img{
+    width: 100%;
+}
 .contact{
     background-color: wheat;
     font-family: 'Josefin Slab', serif;
