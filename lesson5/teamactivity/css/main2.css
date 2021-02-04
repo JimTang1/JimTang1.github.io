@@ -1,0 +1,75 @@
+.fullimg{
+    position: relative;
+    width: 500px;
+}
+
+.img1{
+    position: absolute;
+    top: 84%;
+    right: 62%;
+}
+
+.img2{
+    position: absolute;
+    top: 84%;
+    right: -40%;
+    opacity: 0.6;
+}
+
+.img3{
+    position: absolute;
+    top: 84%;
+    right: -4%;
+    opacity: 0.6;
+}
+
+.img4{
+    position: absolute;
+    top: 84%;
+    right: 30%;
+    opacity: 0.6;
+}
+
+.img5{
+    position: absolute;
+    top: 4%;
+    right: 85%;
+}
+
+.img6{
+    position: absolute;
+    top: 4%;
+    right: -40%;
+}
+
+.img7{
+    position: absolute;
+    top: 121%;
+    right: 87%;
+}
+
+
+.overlay{
+    position: absolute;
+    top: 43%;
+    right: -50%;
+    width: 708px;
+    font-size: 36px;
+    color: white;
+    font-family: monospace;
+}
+
+
+.overlay .intro{
+    margin-top: -50px;
+}
+
+
+/* div {
+  height: 100px;
+  background-color: red;
+  background-image:
+    linear-gradient(
+      red, #f06d06
+    );
+} */
