@@ -7,10 +7,21 @@
     nav{
         max-width:1500px;
     }
+    .banner{
+        font-size: 40px;
+    }
+
+    .today{
+        font-size: 24px;
+    }
 
     main{
         max-width: 1500px;
         margin: auto;
+    }
+
+    main h1{
+        font-size: 50px;
     }
     
     .logo{
@@ -38,12 +49,17 @@
         position: relative;
     }
 
+    table{
+        width: 100%;
+    }
+
     .weather-sum{
-        width: 260px;
         position: absolute;
-        top: 45%;
+        top: 500px;
         background: none;
         color: white;
+        width: 385px;
+        left: 30px;
     }
 
     .hero-img, .weather-sum, .forecast, .art, .contact {
@@ -67,7 +83,18 @@
     .art-content{
         display: flex;
     }
+
+    .contact-content{
+        display:flex;
+    }
     
+    .map{
+        width: 50%;
+    }
+
+    .text-area{
+        width: 50%;
+    }
     footer{
         font-size: 17px;
     }
