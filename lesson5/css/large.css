@@ -67,6 +67,10 @@
         top: 0;
     }
     
+    .weather-sum .weather-content{
+        padding-left:15%; 
+    }
+
     .hero-img, .weather-sum, .forecast, .art, .contact {
         font-size: 30px;
         padding: 20px;

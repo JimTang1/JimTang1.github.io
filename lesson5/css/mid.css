@@ -21,6 +21,9 @@
         color: white;
     }
 
+    .weather-sum .weather-content{
+        padding-left:15%; 
+    }
     
     .sunny-img5, .cloudy-img5, .rain-img5, .stormy-img5 {
         width: 100%;
