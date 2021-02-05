@@ -166,7 +166,7 @@ nav{
     background-color: burlywood;
 }
 
-.navigation a:focus{
+.navigation li .link:focus{
     color: white;
     background-color: burlywood;
 }
