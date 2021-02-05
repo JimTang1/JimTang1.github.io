@@ -53,6 +53,10 @@
         width: 100%;
     }
 
+    table th{
+        font-size: 30px;
+    }
+  
     .weather-sum{
         position: absolute;
         top: 500px;
@@ -61,7 +65,7 @@
         width: 385px;
         left: 30px;
     }
-
+    
     .hero-img, .weather-sum, .forecast, .art, .contact {
         font-size: 30px;
         padding: 20px;
