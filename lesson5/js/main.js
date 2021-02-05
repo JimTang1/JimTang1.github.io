@@ -77,7 +77,3 @@ getBanner =() =>{
 
 getBanner();
 
-
-$(".navigation").click=() =>{
-    $(this).find("a").toggle();
-}
