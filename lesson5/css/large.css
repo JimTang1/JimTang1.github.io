@@ -30,9 +30,10 @@
         margin-left: 70px;
     }
     
-    .navigation{
+    .navigation a:link, .navigation a:visited, .navigation a:hover, .navigation a:active, .navigation a:focus{
         font-size: 20px;
     }
+    
     .header .motto{
         margin:auto;
     }
