@@ -162,10 +162,16 @@ nav{
     font-weight: bold;
 }
 
+
+
 .navigation a:hover{
     color: white;
     background-color: burlywood;
 }
+
+/* .navigation li .link:active{
+    background-color: rgb(27, 17, 4);
+} */
 
 .navigation li .link:focus{
     color: white;
