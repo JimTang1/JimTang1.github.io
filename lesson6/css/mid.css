@@ -1,0 +1,56 @@
+
+@media only screen and (min-width:555px){
+    .logo{
+        width: 150px;
+        height: 150px;
+    }
+
+    .header .motto {
+        margin: auto;
+    }
+
+    .relay{
+        position: relative;
+    }
+    .weather-sum{
+        width: 260px;
+        position: absolute;
+        top: 0;
+        left: 5%;
+        background: none;
+        color: white;
+    }
+
+    
+    .sunny-img5, .cloudy-img5, .rain-img5, .stormy-img5 {
+        width: 100%;
+    }
+    
+    .motto h1{
+        font-size: 30px;
+    }
+
+    .motto span{
+        font-size: 20px;
+    }
+    nav{
+        max-width: 100%;
+    }
+
+    .navigation{
+        
+        grid-template-columns: repeat(5,auto);
+    }
+
+    .navigation li{
+        display: block;
+    }
+
+    .navigation li a{
+        text-align: center;
+    }
+
+    .navigation li:first-child{
+        display: none;
+    }
+}
