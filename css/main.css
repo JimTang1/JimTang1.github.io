@@ -9,8 +9,9 @@ body {
 }
 
 header, footer{
-    background-color: #FAEBD7;
-    color: burlywood;
+    /* background-color: #FAEBD7; */
+    background-color: #00008B;
+    color: white;
     padding: 8px;
     border-radius: 15px;
 }
@@ -40,7 +41,7 @@ main ul {
 }
 
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active footer a:focus {
-    color: burlywood;
+    color: white;
 }
 
 footer a:hover{
@@ -58,7 +59,7 @@ footer p.legal{
 }
 
 footer p.highlight{
-    color: burlywood;
+    color: white;
     font-size: .8em;
     margin-top:0;
 }

@@ -61,12 +61,15 @@
         position: absolute;
         background: none;
         color: white;
-        width: 385px;
+        width: 285px;
         left: 5%;
-        top: 0;
+        top: 5%;
+        background-color: #008B8B;
+        opacity:0.5;
+        font-size: 20px;
     }
     
-    .hero-img, .weather-sum, .forecast, .art, .contact {
+    .hero-img, .forecast, .art, .contact {
         font-size: 30px;
         padding: 20px;
     }
