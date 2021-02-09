@@ -1,6 +1,7 @@
 body {
     background-color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 .content{
@@ -30,7 +31,7 @@ main h2{
 }
 
 main ul {
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .profile{
@@ -39,7 +40,9 @@ main ul {
     height: 200px;
     box-shadow: 0 0 17px black;
 }
-
+.link{
+    padding:5px;
+}
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active footer a:focus {
     color: white;
 }
