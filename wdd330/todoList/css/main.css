@@ -40,14 +40,32 @@ form button{
 }
 
 .text-content{
-    font-size: 25px;
-    text-align: left;
-    margin-left: 20%;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border: solid 1px;
+    margin-bottom: 20px;
 }
 
-.delete-list{
-    margin-left: 20%;
+.text-content h2{
+    background-color: wheat;
 }
+
+.deleteList{
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.deleteList h2{
+    background-color: wheat;
+}
+
 .list-body{
-    display: flex;
+    display: inline-block;
+    width: 385px;
+}
+
+li{
+    text-align: left;
+    font-size: 25px;
+
 }
