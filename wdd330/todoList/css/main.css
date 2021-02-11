@@ -1,0 +1,53 @@
+*{
+    
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(120deg,#f6d365,#fda085);
+    max-width: 800px;
+    margin: auto;
+}
+
+header, footer{
+    color: black;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+}
+
+.todolist{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.input-content{
+    margin: 30px;
+}
+
+form input{
+    padding:0.5rem;
+    font-size: 23px;
+    border: none;
+    background: white;
+}
+
+form button{
+    padding:10px;
+}
+
+.text-content{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.delete-list{
+    margin-left: 20%;
+}
+.list-body{
+    display: flex;
+}

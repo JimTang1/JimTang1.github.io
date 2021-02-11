@@ -1,30 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
+
 <body>
     <header></header>
-    <main>
-        <h1>ToDo List</h1>
+    <main class="todolist">
+        <header>
+            <h1>ToDo List</h1>
+        </header>
+
         <section>
-            <form action="">
-                <div>
-                    <input type="text" id = "content" name ="content"
-                    placeholder="Enter ToDo Text">
-                    <button id = "addBtn">+</button>
+            <form>
+                <div class = "input-content">
+                    <input type="text" id="content" name="content" placeholder="Enter ToDo Text">
+                    <button id="addBtn"><i class="fa fa-plus-square"></i>+</button>
                 </div>
-                <ul></ul>
+                <div class="list-body">
+                    <div class="text-content">
+                        <h2>Go Do It!!</h2>
+                        <ul></ul>
+                    </div>
+                    <div class="deleteList">
+                        <h2>Finished</h2>
+                        <ul></ul>
+                    </div>
+                </div>
+
             </form>
         </section>
-        
+
 
     </main>
-    <footer></footer>
-    <script src = "script/main.js"></script>
-    <script src="script/todos.js" type = "module"></script>
+    <footer>
+        <p class="legal">&copy; <span id='copyrightyear'></span> | Wei Chun Tang | WDD230 Assignment | Click me: <a
+                href="https://github.com/JimTang1/jimtang1.github.io"> GitHub link</a></p>
+        <p class="highlight">Last Updated: <span id="lastupdated"></span></p>
+    </footer>
+    <script src="script/main.js"></script>
+    <script src="script/todos.js" type="module"></script>
+    <script src="script/main.js"></script>
 </body>
+
 </html>
