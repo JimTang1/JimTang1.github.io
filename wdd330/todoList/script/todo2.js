@@ -27,13 +27,13 @@ let listCheck = (e) => {
     console.log(e.target.tagName);
     if (e.target.tagName === 'INPUT') {
         //e.target.parentElement.innerHTML = "ho";
-        const id = parseInt(e.target.value);
+        const id = Number(e.target.value);
         const todo = todos.find(todo => todo.Id === id);
         //console.log(todo);
         todo.Completed = !todo.Completed;
         console.log(todo);
         storageArray();
-        location.reload();
+        // location.reload();
     }
     
 }
@@ -49,10 +49,9 @@ let setTodoList = () => {
         todos.forEach(
             (todo) => {
                 const li = document.createElement('li');
-                li.addEventListener('click', listCheck);
                 li.id = todo.Id;
                 if (todo.Completed === false) {
-                    li.id = todo.Id;
+                    
                     li.innerHTML =
                         `
                 <input type = 'checkbox' 
@@ -60,7 +59,14 @@ let setTodoList = () => {
                 class = "checked">                        
                 ${todo.Content}`
                     todoList.appendChild(li);
+                li.addEventListener('click', (e)=>{
+                    todo.Completed =!todo.Completed;
+
+                });
+
                 } else {
+                    // const li = document.createElement('li');
+                    // li.addEventListener('click', listCheck);
                     li.innerHTML =
                         `
                 <input type = 'checkbox' 

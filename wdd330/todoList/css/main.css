@@ -28,15 +28,17 @@ ul{
     margin: 30px;
 }
 
-form input{
+form input,
+form #addBtn
+{
     padding:0.5rem;
     font-size: 23px;
     border: none;
     background: white;
 }
 
-form button{
-    padding:10px;
+form #addBtn:hover{
+    background-color: #FAEBD7
 }
 
 .text-content{
@@ -51,7 +53,9 @@ form button{
 }
 
 .deleteList{
+    text-align: center;
     background: rgb(255, 255, 255);
+    border: solid 1px;
     margin-bottom: 20px;
 }
 
