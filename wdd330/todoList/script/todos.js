@@ -48,9 +48,12 @@ let setTodoList = () => {
         todoList.innerHTML = "";
         let finishedList = document.querySelector('#finished');
         finishedList.innerHTML = "";
+        let listNum = 0;
+        let finishNum = 0;
         todos.forEach(
             (todo) => {
                 if (todo.Completed === false) {
+                    listNum++;
                     const li = document.createElement('li');
                     li.addEventListener('click', listCheck);
                     li.id = todo.Id;
@@ -68,6 +71,7 @@ let setTodoList = () => {
                     `
                     todoList.appendChild(li);
                 } else {
+                    finishNum++;
                     const li = document.createElement('li');
                     li.addEventListener('click', listCheck);
                     li.id = todo.Id;
@@ -85,8 +89,16 @@ let setTodoList = () => {
                     `
                     finishedList.appendChild(li);
                 }
-                
             });
+
+            let listNumber = document.querySelector('.list-number');
+            if(listNum === 0){
+                listNumber.textContent = "Great! You finished EVERYTHING!";
+            }else{
+                listNumber.textContent = "Only " + listNum + " Things to do";
+            }
+
+
     }
 
 }
