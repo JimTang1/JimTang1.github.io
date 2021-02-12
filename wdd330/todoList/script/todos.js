@@ -34,7 +34,7 @@ let listCheck = (e) => {
     // else {
     //     e.target.innerHTML = 'test';
     // }
-    // document.querySelector("li").innerHTML = "You click me";
+
 }
 
 // Create li and in put content to ul
@@ -86,8 +86,6 @@ if (localStorage.getItem('todos')) {
 }
 setTodoList();
 //setTodoList(todos.filter())
-
-//document.querySelector(".checked").addEventListener('click', listCheck);
 
 // Add Button Even.
 // take content and push to the todos array.

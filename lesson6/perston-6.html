@@ -45,7 +45,12 @@
         <p class="banner"></p>
         <div class="relay">
             <section class="hero-img">
-                <img src="images/wdd230.jpeg" alt="sand" class="sand">
+                <picture>
+                    <source media="(min-width:1500px)" srcset="images/wdd230.jpeg">
+                    <source media="(min-width:555px)" srcset="images/wdd230.jpeg">
+                    <img src="images/wdd230.jpeg" alt="sand" class="sand">
+                </picture>
+                
             </section>
 
             <section class="weather-sum">
@@ -146,6 +151,7 @@
         <p class="highlight">Last Updated: <span id="lastupdated"></span></p>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>
