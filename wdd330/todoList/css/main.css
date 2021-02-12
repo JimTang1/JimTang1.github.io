@@ -28,6 +28,10 @@ ul{
     margin: 30px;
 }
 
+#content{
+    width: 340px;
+}
+
 form input,
 form #addBtn
 {
@@ -38,9 +42,31 @@ form #addBtn
 }
 
 form #addBtn:hover{
-    background-color: #FAEBD7
+    background-color: wheat;
 }
 
+
+li{
+    text-align: left;
+    font-size: 25px;
+    display: flex;
+
+}
+
+.check{
+    margin-right: auto;
+}
+
+.x{
+    padding-right: 10px;
+    }
+
+.x p:hover{
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    background: #f6d365;
+}
 .text-content{
     text-align: center;
     background: rgb(255, 255, 255);
@@ -68,8 +94,3 @@ form #addBtn:hover{
     width: 385px;
 }
 
-li{
-    text-align: left;
-    font-size: 25px;
-
-}
