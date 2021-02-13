@@ -32,6 +32,10 @@ nav .ham{
     top: 55px;
 }
 
+.wayfinding{
+    background: burlywood;
+}
+
 main{
     text-align: center;
 }
