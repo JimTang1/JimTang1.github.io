@@ -8,12 +8,9 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/mid.css">
     <link rel="stylesheet" href="css/large.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Saira+Condensed:wght@200&display=swap"
-        rel="stylesheet">
+     <!-- <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Saira+Condensed:wght@200&display=swap" rel="stylesheet">  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Slab:wght@500&display=swap"
-        rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Slab:wght@500&display=swap" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -46,11 +43,11 @@
         <div class="relay">
             <section class="hero-img">
                 <picture>
-                    <source media ="(min-width: 1000px)" srcset = "./images/wdd230-1500.jpg">
-                    <source media ="(min-width: 555px)" srcset = "images/wdd230-900.jpg">
-                        <img src="images/wdd230-500.jpg" alt="sand" class="sand">
+                    <source media="(min-width: 1000px)" srcset="./images/wdd230-1500.jpg">
+                    <source media="(min-width: 555px)" srcset="images/wdd230-900.jpg">
+                    <img src="images/wdd230-500.jpg" alt="sand" class="sand">
                 </picture>
-                
+
             </section>
 
             <section class="weather-sum">
@@ -65,8 +62,8 @@
                     </div>
                     <div class="temp">
                         <p>Snowing</p>
-                        <p><span class="high"></span>°F</p>
-                        <p><span class="chill"></span>°F</p>
+                        <p><span class="high"></span> °F</p>
+                        <p><span class="chill"></span> °F</p>
                         <p><span class="humi"></span></p>
                         <p><span class="speed"></span>mph</p>
                     </div>
@@ -143,7 +140,6 @@
                     <br>
                     <button type="submit">Submit</button>
                 </div>
-
             </div>
         </section>
         <p class="legal">&copy; <span id='copyrightyear'></span> | Wei Chun Tang | WDD230 Assignment | Click me: <a
@@ -153,6 +149,21 @@
     <script src="js/main.js"></script>
     <script src="js/windchill.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Dancing Script', 
+                    'Josefin Slab',
+                    'Saira Condensed',
+                    'Potta One',
+                    'Dancing Script',
+                    'Saira Condensed'
+                ]
+            }
+        });
+    </script>
+
 </body>
 
 </html>
