@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 let speed = parseInt(document.querySelector(".speed").innerHTML);
 console.log(speed);
-=======
+
 window.addEventListener('load', (e)=>{
     const high = document.querySelector(".high");
     const speed = document.querySelector(".speed");
@@ -17,4 +17,4 @@ window.addEventListener('load', (e)=>{
                         0.4275 *high.innerHTML * Math.pow(speed.innerHTML, 0.16));
     chill.innerHTML = Math.floor(windChill);
 })
->>>>>>> 7e2d084e5f4a356edc5d6f8216734d2aae8c3a80
+
