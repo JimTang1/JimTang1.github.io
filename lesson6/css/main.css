@@ -32,6 +32,10 @@ nav .ham{
     top: 55px;
 }
 
+.wayfinding{
+    background: burlywood;
+}
+
 main{
     text-align: center;
 }
@@ -105,6 +109,7 @@ table{
 .art{
     background-color: wheat;
     font-family: 'Josefin Slab', serif;
+
 }
 
 .sand-img{

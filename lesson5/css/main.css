@@ -6,7 +6,9 @@ header, footer{
     font-family: 'Potta One', cursive;
 }
 
-
+.wayfinding{
+    background: burlywood;
+}
 .header{
     display: flex;
     
