@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <section class="grid">
+                <img data-src="images/image1" alt="" class = "image1">
+                <img data-src="images/image2" alt="" class = "image2">
+                <img data-src="images/image3" alt="" class = "image3">
+
+
+                <img data-src="images/image4" alt="" class = "image4">
+                <img data-src="images/image5" alt="" class = "image5">
+                <img data-src="images/image6" alt="" class = "image6">
+
+
+
+                <img data-src="images/image7" alt="" class = "image7">
+                <img data-src="images/image8" alt="" class = "image8">
+                <img data-src="images/image9" alt="" class = "image9">
+                <img data-src="images/image10" alt="" class = "image10">
+        </section>
+    </main>
+    <footer></footer>
+    <script>
+        window.addEventListener('load',(event)=>{
+            lazyLoad();
+        });
+        function lazyLoad(){
+            const images = document.querySelectorAll("[data-src]");
+            for(const image of images){
+                image.src = image.getAttribute("data-src");
+            }
+            // console.log(images);
+        }
+    </script>
+</body>
+</html>
