@@ -9,33 +9,8 @@
         margin: auto;
     }
 
-    .relay{
-        position: relative;
-    }
-    .weather-sum{
-        width: 205px;
-        position: absolute;
-        top: 0;
-        left: 5%;
-        background: none;
-        color: white;
-        background-color: #008B8B;
-        opacity:0.5;
-        padding:0px;
-    }
-
     
-    .sunny-img5, .cloudy-img5, .rain-img5, .stormy-img5 {
-        width: 100%;
-    }
-    
-    .motto h1{
-        font-size: 30px;
-    }
 
-    .motto span{
-        font-size: 20px;
-    }
     nav{
         max-width: 100%;
     }
@@ -55,5 +30,13 @@
 
     .navigation li:first-child{
         display: none;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        margin: 0 auto;
+        grid-gap:1px;
     }
 }

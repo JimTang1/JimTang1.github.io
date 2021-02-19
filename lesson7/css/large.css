@@ -11,8 +11,12 @@
         font-size: 40px;
     }
 
-    .today{
-        font-size: 24px;
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        margin: 0 auto;
+        grid-gap:1px;
     }
 
     main{
@@ -36,74 +40,34 @@
     .header .motto{
         margin:auto;
     }
-    .motto h1{
-        font-size: 50px;
-    }
 
-    .motto span{
-        font-size: 25px;
-        margin: inherit;
-    }
-
-    main .relay{
-        position: relative;
-    }
-
-    table{
-        width: 100%;
-    }
-
-    table th{
-        font-size: 30px;
-    }
-  
-    .weather-sum{
-        position: absolute;
-        background: none;
-        color: white;
-        width: 285px;
-        left: 5%;
-        top: 5%;
-        background-color: #008B8B;
-        opacity:0.5;
-        font-size: 20px;
-    }
-    
-    .hero-img, .forecast, .art, .contact {
-        font-size: 30px;
-        padding: 20px;
-    }
-
-    .sunny-img, .cloudy-img, .rain-img, .stormy-img {
-        width: 145px;
-        left: 28%;
-    }
-
-    .cloudy-img {
-        top: 28.5%;
-    }
-
-    .rain-img {
-        top: 47.5%;
-    }
-    
-    .art-content{
-        display: flex;
-    }
-
-    .contact-content{
-        display:flex;
-    }
-    
-    .map{
-        width: 50%;
-    }
-
-    .text-area{
-        width: 50%;
-    }
     footer{
         font-size: 17px;
     }
-   
+
+
+    /*----------------weather------------*/
+    
+    .border{
+        background:#FFE4C4;
+        margin: 10px;
+        opacity: 0.5;
+        /* transition: opacity 3s; */
+    }
+
+    img {
+        /* padding-top: 15px; */
+         width: 100%;
+         height: 80%;
+    }
+
+    .border:active, .border:hover{
+        opacity: 1;
+        transition: opacity 2s;
+    }
+
+    p{
+        display: inline;
+    }
+
 }

@@ -1,4 +1,9 @@
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 header, footer{
     background-color:#FAEBD7;
     color: burlywood;
@@ -112,18 +117,40 @@ nav{
 
 /*---------------------- Weather Gallery CSS ------------------------*/
 
-
-.grid-1{
+.grid {
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    margin: 0 auto;
+    grid-gap:1px;
 }
 
-.grid-2{
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
+img {
+    /* padding-top: 15px; */
+     width: 100%;
+     height: 90%;
 }
 
-.grid-3{
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
+.border{
+    background:#FFE4C4;
+    margin: 10px;
+    opacity: 0.4;
+    transition: opacity 2s;
 }
+
+h3{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    display: none;
+}
+
+
+.border:active, .border:hover{
+    opacity: 1;
+    transition: opacity 2s;
+    box-shadow: 10px 10px 30px grey;
+}
+
