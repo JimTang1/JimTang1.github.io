@@ -64,6 +64,7 @@
     .border:active, .border:hover{
         opacity: 1;
         transition: opacity 2s;
+        box-shadow: 10px 10px 30px grey;
     }
 
     p{

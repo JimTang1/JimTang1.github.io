@@ -58,7 +58,7 @@ getDay =() =>{
             break;
     }
 
-    document.querySelector(".today").textContent = "To day: " + newDay;
+    document.querySelector(".today").textContent = "Today: " + newDay;
 }
 
 getDay();
