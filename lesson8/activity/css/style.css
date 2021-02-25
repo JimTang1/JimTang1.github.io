@@ -1,0 +1,48 @@
+body{
+    margin: 0 auto;
+
+}
+
+table{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+td{
+    padding: 5px 10px;
+    font-family: monospace;
+}
+
+tr th.form-title{
+    margin: 0 auto;
+    background-color: #7fb9c2;
+    color: black;
+    padding: 8px 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+thead tr th{
+    background-color: #628ca6;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+}
+
+tr{
+    background-color: #e7f0ed;
+}
+
+tr:nth-child(2n){
+    background-color: #e7ffed;
+}
+
+.maximum{
+    background-color: #628ca6;
+    color: white;
+}
+
+tfoot td{
+    background-color: #7fb9c2;
+}
