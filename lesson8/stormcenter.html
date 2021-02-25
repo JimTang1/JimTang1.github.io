@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section class="form-content">
+            <form>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id = "fullName" name = "fullName" 
+                pattern = "[A-Za-z]{3}"
+                title = "Please enter letter only"
+                required>
+
+                <label for="email">Email:</label>
+                <input type="email" id = "email" name = "email"
+                title = "Please enter email address"
+                required>
+                
+                <label for="number">Phone number:</label>
+                <input type="tel" id="number" name ="number" 
+                 pattern= "[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                 placeholder="000-000-0000"
+                 required> 
+                
+                <label for="zipCode">Zip Code:</label>
+                <input type="number" id="zipCode" name = "zipCode" required>
+
+                <label for="stormData">Store Data:</label>
+                <input type="date" id="stormData" name = "stormData" required>
+
+                <label for="stormType">Storm Type:</label>
+                <input list = "stormTypeList" id = "stormType" name = "stormType" required>
+                <datalist id="stormTypeList">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+
+                <label for="stormSeverity">Storm Severity:</label>
+                <input type="range" id = "stormSeverity" name = "stormSeverity" min="1" max="10" >
+
+                <label for="stormRegion">Storm Region:</label>
+                <select name="stormRegion" id="stormRegion">
+                    <option value="Select Region">Select Region</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
+
+                <p>Danger Level:</p>
+                <input type="radio" id = "yes" name="dangerLevel" value="yes">
+                <label for="yes">yes</label>
+                <input type="radio" id = "maybe" name="dangerLevel" value="maybe">
+                <label for="maybe">maybe</label>
+                <input type="radio" id = "no" name="dangerLevel" value="no">
+                <label for="no">no</label>
+
+                <p>Additional information:</p>
+                <textarea name="information" id="information" cols="30" rows="10"></textarea>
+
+                <button type = "submit">Submit</button>
+            </form>
+            
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
