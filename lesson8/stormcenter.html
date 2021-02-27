@@ -1,14 +1,42 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mid.css">
+    <link rel="stylesheet" href="css/large.css">
+     <!-- <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Saira+Condensed:wght@200&display=swap" rel="stylesheet">  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Slab:wght@500&display=swap" rel="stylesheet"> -->
 </head>
+
+
 <body>
-    <a href="activity/tablebuild.html">Activity link</a>
-    <header></header>
+    <header>
+        <div class="header">
+            <img src="images/logo.jpg" alt="logo" class="logo">
+            <div class="motto">
+                <h1>Your Outdoor Planner</h1>
+                <span>your best traveling friend</span>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" class="ham">&#9776;</a></li>
+            <li><a href='#' class="link">Home</a></li>
+            <li><a href='#' class="link">Preston</a></li>
+            <li><a href='#' class="link">Weather</a></li>
+            <li><a href='#' class="link">Cake</a></li>
+            <li><a href='#' class="wayfinding">report</a></li>
+        </ul>
+    </nav>
+
     <main>
         <section class="form-content">
             <form>
@@ -71,7 +99,32 @@
             </form>
             
         </section>
+        <br>
     </main>
-    <footer></footer>
+
+    <footer>
+        <p class="legal">&copy; <span id='copyrightyear'></span> | Wei Chun Tang | WDD230 Assignment | Click me: <a
+            href="https://github.com/JimTang1/jimtang1.github.io"> GitHub</a></p>
+    <p class="highlight">Last Updated: <span id="lastupdated"></span></p>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/lazy-load.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Dancing Script', 
+                    'Josefin Slab',
+                    'Saira Condensed',
+                    'Potta One',
+                    'Dancing Script',
+                    'Saira Condensed'
+                ]
+            }
+        });
+    </script>
+
 </body>
+
 </html>
