@@ -56,7 +56,10 @@
                  required> 
                 
                 <label for="zipCode">Zip Code:</label>
-                <input type="number" id="zipCode" name = "zipCode" required>
+                <input type="number" id="zipCode" name = "zipCode" 
+                placeholder="Enter zip code."
+                pattern="[0-9]{5}"
+                required>
 
                 <label for="stormData">Store Data:</label>
                 <input type="date" id="stormData" name = "stormData" required>
