@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/mid.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="css/form.css">
+    <!-- <link rel="stylesheet" href="css/form.css"> -->
 </head>
 
 <body>
@@ -83,13 +83,17 @@
                     <option value="Fish Haven">Fish Haven</option>
                 </select>
 
-                <p>Danger Level:</p>
-                <input type="radio" id = "yes" name="dangerLevel" value="yes">
-                <label for="yes">yes</label>
-                <input type="radio" id = "maybe" name="dangerLevel" value="maybe">
-                <label for="maybe">maybe</label>
-                <input type="radio" id = "no" name="dangerLevel" value="no">
-                <label for="no">no</label>
+                <div class= "danger">
+                    <label>Danger Level:</label>
+                    <br>
+                    <input type="radio" id = "yes" name="dangerLevel" value="yes">
+                    <label for="yes">yes</label>
+                    <input type="radio" id = "maybe" name="dangerLevel" value="maybe">
+                    <label for="maybe">maybe</label>
+                    <input type="radio" id = "no" name="dangerLevel" value="no">
+                    <label for="no">no</label>
+                </div>
+                
 
                 <p>Additional information:</p>
                 <textarea name="information" id="information" cols="30" rows="10"></textarea>
