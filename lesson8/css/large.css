@@ -45,30 +45,4 @@
         font-size: 17px;
     }
 
-
-    /*----------------weather------------*/
-    
-    .border{
-        background:#FFE4C4;
-        margin: 10px;
-        opacity: 0.5;
-        /* transition: opacity 3s; */
-    }
-
-    img {
-        /* padding-top: 15px; */
-         width: 100%;
-         height: 80%;
-    }
-
-    .border:active, .border:hover{
-        opacity: 1;
-        transition: opacity 2s;
-        box-shadow: 10px 10px 30px grey;
-    }
-
-    p{
-        display: inline;
-    }
-
 }
