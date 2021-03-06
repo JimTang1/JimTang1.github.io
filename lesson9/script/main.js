@@ -15,6 +15,8 @@ window.addEventListener("load", (event)=>{
         jsonResult.towns.forEach(
             town =>{
                 let section = document.createElement('section');
+                let div = document.createElement('div');
+                let div2 = document.createElement('div');
                 let name = document.createElement('h2');
                 let span = document.createElement('span');
                 let yearFounded = document.createElement('p');
@@ -30,14 +32,19 @@ window.addEventListener("load", (event)=>{
                 image.setAttribute('src',"images/" + town.photo);
                 image.setAttribute('alt',town.name);
 
-                section.appendChild(name);
-                section.appendChild(span);
-                section.appendChild(yearFounded);
-                section.appendChild(currentPopulation);
-                section.appendChild(averageRainfall);
-                section.appendChild(image);
+                
+                div2.appendChild(name);
+                div2.appendChild(span);
+                div2.appendChild(yearFounded);
+                div2.appendChild(currentPopulation);
+                div2.appendChild(averageRainfall);
+                div.appendChild(image);
+                section.appendChild(div2);
+                section.appendChild(div);
 
+                
                 document.querySelector('.content').appendChild(section);
+                //document.querySelector('.content').appendChild(div);
             }
         )
     })

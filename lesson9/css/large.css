@@ -11,14 +11,6 @@
         font-size: 40px;
     }
 
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(3, 1fr);
-        margin: 0 auto;
-        grid-gap:1px;
-    }
-
     main{
         max-width: 1500px;
         margin: auto;
@@ -44,4 +36,17 @@
     footer{
         font-size: 17px;
     }
+
+    .content{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    section{
+        display: block;
+    }
+    .content{
+        max-width: 1200px;
+    }
+    
+
 }

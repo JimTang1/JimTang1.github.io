@@ -44,9 +44,11 @@ nav .ham{
 main{
     text-align: center;
 }
+
 .contact{
     background-color: wheat;
     font-family: 'Josefin Slab', serif;
+    
 }
 
 footer{
@@ -115,56 +117,41 @@ nav{
     margin: 0px;
 }
 
-/*---------------------- Form ------------------------*/
-form{
-    margin-top: 35px;
-    border-style: groove;
-    display: inline-grid;
+section{
     text-align: center;
-    width: auto;
-    background-color: #FAEBD7;
-}
-
-label{
-    font-family: 'Potta One', cursive;
-    margin: 10px 14px;
-    font-size: 15px;
-}
-
-input{
-    
-    font-size: 15px;
-    padding: 5px 25px;
-    margin: 5px 70px;
-}
-
-
-select{
-    font-size: 15px;
-    padding: 5px 5px;
-    margin: 5px 70px;
-}
-
-.danger input{
-    margin: 0;
-}
-
-button{
-    padding: 10px 10px;
-    font-family: 'Potta One', cursive;
-    background-color: lightgrey;
-    margin: 20px 80px;
-}
-button:hover{
-    background-color: grey;
-}
-
-
-textarea{
     margin: 5px 25px;
+    background-color: #FAEBD7;
+    border-style: ridge;
+    
+}
+
+div{
+    margin: auto;
+}
+
+.content{
+    max-width: 400px;
+}
+
+h2{
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    margin:0;
+    padding: 5px;
 }
 
 p{
-    font-size: 15px;
-    font-family: 'Potta One', cursive;
+    font-family: 'Saira Condensed';
+    margin: 5px;
 }
+
+span{
+    font-family: 'Josefin Slab';
+}
+
+
+img{
+    max-width: auto;
+  }
+
+

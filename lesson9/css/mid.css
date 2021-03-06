@@ -30,17 +30,16 @@
         display: none;
     }
 
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(5, 1fr);
-        margin: 0 auto;
-        grid-gap:1px;
+    .content{
+        max-width: 720px;
     }
 
-    /*---------------------- Form ------------------------*/
-form{
-    width:500px;
-}
-
+    section {
+        display: flex;
+        flex-direction: row;
+      }
+      
+      section:nth-child(odd) {
+          flex-direction: row-reverse;
+      }
 }
