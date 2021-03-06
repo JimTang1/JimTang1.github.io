@@ -28,7 +28,7 @@ window.addEventListener("load", (event)=>{
                 span.textContent = town.motto;
                 yearFounded.textContent = "Year Founded: " + town.yearFounded;
                 currentPopulation.textContent = "Population: " + town.currentPopulation;
-                averageRainfall.textContent = "Annual Rain Fall" + town.averageRainfall;
+                averageRainfall.textContent = "Annual Rain Fall: " + town.averageRainfall;
                 image.setAttribute('src',"images/" + town.photo);
                 image.setAttribute('alt',town.name);
 

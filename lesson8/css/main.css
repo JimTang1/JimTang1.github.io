@@ -78,6 +78,9 @@ nav{
     margin:auto;
 
 }
+.navigation{
+    grid-template-columns: repeat(6,auto);
+}
 
 .navigation li:first-child{
     display: block;

@@ -88,7 +88,9 @@ nav{
 .navigation li{
     display: none;
 }
-
+.navigation{
+    grid-template-columns: repeat(6,auto);
+}
 .navigation a:link, .navigation a:visited, .navigation a:hover, .navigation a:active, .navigation a:focus{
     display: block;
     padding: 0.75em;
