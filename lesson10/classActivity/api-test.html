@@ -5,13 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>OpenWeatherMap.org API Test</h1>
-    <p>The current temperature in Preston, Idaho is <span id="current-temp"></span>&deg; F</p>
-    <hr>
-    <p>Image Icon Path Test: <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></p>
+    <header>
+        <h3>Concept Of</h3>
+        <h1>Weather App</h1>
+    </header>
+    <main>
+        <div id="mainContainer">
+            <div id="imgContainer"><img id="card-img" src="images/2.jpg" alt="card background image"></div>
+            <div class = "day1">
+                <div class = "temp">
+                    <p><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></p>
+                    <p class="location">Rexburg</p>
+                    <p><span id="current-temp"></span>&deg; F</p>
+                </div>
+            </div>
+            <div class= "day2">
+                <p class="location">Rexburg</p>
+            </div>
+            <div class= "day3">
+                <p class="location">Rexburg</p>
+            </div>
+            <div class= "day4">
+                <p class="location">Rexburg</p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
 
+    </footer>
     <script src="js/weatherapi.js"></script>
 </body>
 </html>

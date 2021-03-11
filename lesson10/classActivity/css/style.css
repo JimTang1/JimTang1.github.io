@@ -1,0 +1,95 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+header, footer{
+    text-align: center; 
+}
+main { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#mainContainer {
+    grid-column: 2;
+}
+#imgContainer {
+    position: absolute;
+    z-index:-1;
+    box-shadow: 0 0 15px grey;
+}
+#card-img {
+    width: 100%;
+    overflow: hidden;
+    height: 800px;
+}
+p {
+    position: relative;
+    font-size: 200%;
+}
+#icon {
+    width: 50%;
+}
+
+.day1{
+ width: 250px;
+}
+
+.day1 p{
+    text-align: center;
+}
+
+.temp{
+    margin: 35px;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: inset;
+    background-color: #B77B87;
+    color: white;
+}
+
+.day2{
+    width: 100px;
+    border-radius: 25px;
+    border-style: inset;
+    background-color: #B77B87;
+    color: white;
+    text-align: center;
+}
+
+.day3{
+    width: 100px;
+    border-radius: 25px;
+    border-style: inset;
+    background-color: #B77B87;
+    color: white;
+    text-align: center;
+}
+
+.day4{
+    width: 100px;
+    border-radius: 25px;
+    border-style: inset;
+    background-color: #B77B87;
+    color: white;
+    text-align: center;
+}
+.location{
+    font-size: 20px;
+    padding: 0;
+}
+
+@media only screen and (min-width: 45.5em) {
+
+
+
+
+}
+
+@media only screen and (min-width: 35.5em) {
+
+
+}
