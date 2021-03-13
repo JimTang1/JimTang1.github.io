@@ -29,6 +29,9 @@
         height: 150px;
         margin-left: 70px;
     }
+    td{
+        font-size: 30px;
+    }
     
     .navigation{
         font-size: 20px;
@@ -74,19 +77,6 @@
         padding: 20px;
     }
 
-    .sunny-img, .cloudy-img, .rain-img, .stormy-img {
-        width: 145px;
-        left: 28%;
-    }
-
-    .cloudy-img {
-        top: 28.5%;
-    }
-
-    .rain-img {
-        top: 47.5%;
-    }
-    
     .art-content{
         display: flex;
     }

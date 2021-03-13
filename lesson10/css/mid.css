@@ -24,11 +24,10 @@
         padding:0px;
     }
 
-    
-    .sunny-img5, .cloudy-img5, .rain-img5, .stormy-img5 {
-        width: 100%;
+    td, th{
+        font-size: 20px;
     }
-    
+
     .motto h1{
         font-size: 30px;
     }

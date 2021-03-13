@@ -25,34 +25,54 @@ window.addEventListener("load",(e)=>{
     const lists = jsObject['list'];
     let day = 1;
 
-    // document.querySelector('.day1').textContent = jsObject
-    // var str = lists[0].dt_txt;
-    // console.log(str);
-    // str1 = str.substr(str.indexOf(' ') + 1);
-    // console.log(str1);
-    // date = str.substr(0,str.indexOf(' '));
-    // console.log(date);
-    // date = new Date(date).toLocaleString('en-us', {weekday:'long'});
-    // console.log(date);
+    let time = "";
+    let d = new Date;
+    let hour = d.getHours();
     
+    console.log(hour);
+
+    if(hour >= 0 && hour < 3){
+      time = "00:00:00";
+    }else if(hour >= 3 && hour < 6){
+      time = "03:00:00";
+    }else if(hour >= 6 && hour < 9){
+      time = "06:00:00";
+    }else if(hour >= 9 && hour < 12){
+      time = "09:00:00";
+    }else if(hour >= 12 && hour < 15){
+      time = "12:00:00";
+    }else if(hour >= 15 && hour < 18){
+      time = "15:00:00";
+    }else if(hour >= 18 && hour < 21){
+      time = "18:00:00";
+    }else if(hour >= 21){
+      time = "21:00:00";
+    }else{
+      return;
+    }
+
+    console.log(time);
+
+
     for(let i = 0; i < lists.length;i++){
       let dayTime = lists[i].dt_txt;
       date = dayTime.substr(0,dayTime.indexOf(' '));
       date = new Date(date).toLocaleString('en-us', {weekday:'long'});
-      console.log(date);
-      let time = dayTime.substr(dayTime.indexOf(' ') + 1);
-      console.log(time);
-      if(time == "21:00:00"){
-        document.querySelector('.day'+day).textContent = date;
-        
-        day++;
-      }
+      let timeInDay = dayTime.substr(dayTime.indexOf(' ') + 1);
       
+      if(time == timeInDay){
+        document.querySelector('.day' + day).textContent = date;  
+        document.querySelector('.temp' + day).textContent = lists[i].main.temp;
+        const imagesrc = 'https://openweathermap.org/img/w/' + lists[i].weather[0].icon + '.png'  // note the concatenation
+        const desc = lists[i].weather[0].description;  // note how we reference the weather array
+        console.log(imagesrc);
+        console.log(desc);
+        
+        document.querySelector('.img'+day).setAttribute('src', imagesrc);  // focus on the setAttribute() method
+        document.querySelector('.img'+day).setAttribute('alt', desc);     
+        day++; 
+      }
     }
-    // const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
-    // const desc = jsObject.weather[0].description;  // note how we reference the weather array
-    // document.querySelector('#icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-    // document.querySelector('#icon').setAttribute('alt', desc);  
   })
 });
 

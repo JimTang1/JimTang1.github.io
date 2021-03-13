@@ -88,9 +88,6 @@ section{
     width: 130px;
 }
 
-.sunny-img5, .cloudy-img5, .rain-img5, .stormy-img5{
-    width: 55px;
-}
 
 table, th, td {
     border: 1px solid black;
@@ -99,6 +96,14 @@ table, th, td {
 
 table{
     width: 100%;
+}
+
+th{
+    font-size: 11px;
+}
+
+td{
+    font-size: 15px;
 }
 
 .forecast{
