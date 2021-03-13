@@ -1,5 +1,5 @@
 window.addEventListener("load",(e)=>{
-    const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=532c1b5f6ed1af0e5f24414cb15bc219&units=imperial";
+    const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=532c1b5f6ed1af0e5f24414cb15bc219&units=imperial";
     const forcaseURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=532c1b5f6ed1af0e5f24414cb15bc219&units=imperial";
     
     fetch(apiURL)
