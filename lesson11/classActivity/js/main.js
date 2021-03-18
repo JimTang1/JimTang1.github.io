@@ -22,7 +22,6 @@ function buildTempleCard(temple){
     //console.log(temple);
     let card = document.createElement('section');
     card.classList.add('temple');
-    card.addEventListener('click', detailPage(temple));
     card.innerHTML =`<h2>${temple.name}</h2> 
                     <img src = "${temple.imageurl}" alt ="${temple.name}>"
                     <br>
