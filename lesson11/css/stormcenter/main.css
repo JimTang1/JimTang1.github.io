@@ -62,7 +62,6 @@ footer h1{
     height: 75px;
     margin: 10px;
 }
-
 nav{
     margin: 0 auto;
     max-width: 555px;
@@ -77,9 +76,6 @@ nav{
     grid-template-columns: auto;    
     margin:auto;
 
-}
-.navigation{
-    grid-template-columns: repeat(6,auto);
 }
 
 .navigation li:first-child{
