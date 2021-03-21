@@ -14,6 +14,9 @@ window.addEventListener("load", (event)=>{
         console.log(jsonResult);
         jsonResult.towns.forEach(
             town =>{
+                if(town.name == "Preston" ||
+                town.name == "Fish Haven" ||
+                town.name == "Soda Springs"){
                 let section = document.createElement('section');
                 let div = document.createElement('div');
                 let div2 = document.createElement('div');
@@ -45,6 +48,7 @@ window.addEventListener("load", (event)=>{
                 
                 document.querySelector('.content').appendChild(section);
                 //document.querySelector('.content').appendChild(div);
+                }
             }
         )
     })
