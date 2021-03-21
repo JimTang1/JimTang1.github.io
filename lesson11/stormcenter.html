@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stormcenter/main.css">
+    <link rel="stylesheet" href="css/stormcenter/mid.css">
+    <link rel="stylesheet" href="css/stormcenter/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="images/logo.jpg" alt="logo" class="logo">
+            <div class="motto">
+                <h1>Your Outdoor Planner</h1>
+                <span>your best traveling friend</span>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" class="ham">&#9776;</a></li>
+            <li><a href='./index.html' class="link">Home</a></li>
+            <li><a href='./preston.html' class="link">Preston</a></li>
+            <li><a href='#' class="link">Soda Springs</a></li>
+            <li><a href='#' class="link">Fish Haven</a></li>
+            <li><a href='#' class="wayfinding">Storm Center</a></li>
+            <li><a href='./gallery.html' class="link">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <a href="activity/tablebuild.html">Class activity</a>
+        <section class="form-content">
+            <form>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id = "fullName" name = "fullName" 
+                pattern = "[A-Za-z]{3}"
+                title = "Please enter letter only"
+                required>
+
+                <label for="email">Email:</label>
+                <input type="email" id = "email" name = "email"
+                title = "Please enter email address"
+                required>
+                
+                <label for="number">Phone number:</label>
+                <input type="tel" id="number" name ="number" 
+                 pattern= "[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                 placeholder="000-000-0000"
+                 required> 
+                
+                <label for="zipCode">Zip Code:</label>
+                <input type="number" id="zipCode" name = "zipCode" 
+                placeholder="Enter zip code."
+                pattern="[0-9]{5}"
+                required>
+
+                <label for="stormData">Store Data:</label>
+                <input type="date" id="stormData" name = "stormData" required>
+
+                <label for="stormType">Storm Type:</label>
+                <input list = "stormTypeList" id = "stormType" name = "stormType" required>
+                <datalist id="stormTypeList">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+
+                <label for="stormSeverity">Storm Severity:</label>
+                <input type="range" id = "stormSeverity" name = "stormSeverity" min="1" max="10" >
+
+                <label for="stormRegion">Storm Region:</label>
+                <select name="stormRegion" id="stormRegion">
+                    <option value="Select Region">Select Region</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
+
+                <div class= "danger">
+                    <label>Danger Level:</label>
+                    <br>
+                    <input type="radio" id = "yes" name="dangerLevel" value="yes">
+                    <label for="yes">yes</label>
+                    <input type="radio" id = "maybe" name="dangerLevel" value="maybe">
+                    <label for="maybe">maybe</label>
+                    <input type="radio" id = "no" name="dangerLevel" value="no">
+                    <label for="no">no</label>
+                </div>
+                
+
+                <p>Additional information:</p>
+                <textarea name="information" id="information" cols="30" rows="10"></textarea>
+
+                <br>
+                <button type = "submit">Submit</button>
+            </form>
+            
+        </section>
+        <br>
+    </main>
+
+    <footer>
+        <p class="legal">&copy; <span id='copyrightyear'></span> | Wei Chun Tang | WDD230 Assignment | Click me: <a
+            href="https://github.com/JimTang1/jimtang1.github.io"> GitHub</a></p>
+    <p class="highlight">Last Updated: <span id="lastupdated"></span></p>
+    </footer>
+    <script src="script/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Dancing Script', 
+                    'Josefin Slab',
+                    'Saira Condensed',
+                    'Potta One',
+                    'Dancing Script',
+                    'Saira Condensed'
+                ]
+            }
+        });
+    </script>
+
+</body>
+
+</html>
