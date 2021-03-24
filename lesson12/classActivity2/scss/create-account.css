@@ -98,6 +98,7 @@ main {
 }
 
 .section2 {
+  text-transform: uppercase;
   margin-left: 20px;
   font-weight: 550;
   color: #b8b8b8;
@@ -132,10 +133,11 @@ main {
       justify-self: center;
   border-style: none;
   border-radius: 50px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .section2 .input input {
+  margin-top: 10px;
   background: none;
   border: none;
   font-size: 1.3em;
@@ -152,6 +154,7 @@ main {
 
 .section2 .buttonSet {
   margin-left: 15px;
+  font-size: 12px;
 }
 
 .section2 .button {
@@ -171,8 +174,8 @@ main {
 }
 
 .section2 .button:hover {
-  background-color: #ffffff28;
-  color: #00a2ff;
+  background-color: #00a2ff;
+  color: white;
   -webkit-box-shadow: 0 0 15px #00d9ff48;
           box-shadow: 0 0 15px #00d9ff48;
 }
