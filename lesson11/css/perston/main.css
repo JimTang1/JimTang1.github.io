@@ -190,3 +190,24 @@ nav{
     margin: 0px;
 }
 
+.icon{
+    width: 50px;
+    border-radius: 200px;
+}
+
+/* .text-area{
+    display: flex;
+} */
+
+
+.infor{
+    color:black;
+}
+
+.infor h3{
+    font-size: 18px;
+}
+
+.infor p{
+    font-size: 13px;
+}
