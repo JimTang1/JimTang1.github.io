@@ -32,6 +32,7 @@ window.addEventListener("load", (event)=>{
 getDay =() =>{
     let dayNow = new Date();
     let day = dayNow.getDay();
+    // let newDay = "";
     console.log(day);
 
     switch(day){
@@ -57,7 +58,7 @@ getDay =() =>{
             newDay = "Saturday";
             break;
     }
-
+    console.log(newDay);
     document.querySelector(".today").textContent = "Today: " + newDay;
 }
 

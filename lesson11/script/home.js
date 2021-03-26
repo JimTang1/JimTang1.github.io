@@ -38,10 +38,7 @@ window.addEventListener("load", (event)=>{
                 image.setAttribute('src',"images/" + town.photo);
                 image.setAttribute('alt',town.name);
                 events.textContent = "Events:";
-                
-                
-                
-                
+    
                 div2.appendChild(name);
                 div2.appendChild(span);
                 div2.appendChild(yearFounded);
@@ -58,8 +55,6 @@ window.addEventListener("load", (event)=>{
                 }));
                 section.appendChild(div2);
                 section.appendChild(div);
-
-                
                 document.querySelector('.content').appendChild(section);
                 // }
             }
@@ -97,40 +92,6 @@ window.addEventListener("load", (event)=>{
 
 });
 
-
-getDay =() =>{
-    let dayNow = new Date();
-    let day = dayNow.getDay();
-    console.log(day);
-
-    switch(day){
-        case 0:
-            newDay = "Sunday";
-            break;
-        case 1:
-            newDay = "Monday";
-            break;
-        case 2:
-            newDay = "Tuesday";
-            break;
-        case 3:
-            newDay = "Wednesday";
-            break;
-        case 4:
-            newDay = "Thursday";
-            break;
-          case 5:
-            newDay = "Friday";
-            break;
-          case 6:
-            newDay = "Saturday";
-            break;
-    }
-
-    document.querySelector(".today").textContent = "Today: " + newDay;
-}
-
-getDay();
 
 
 
