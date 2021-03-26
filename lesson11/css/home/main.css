@@ -11,7 +11,10 @@ header, footer{
     font-family: 'Potta One', cursive;
 }
 
-
+.event{
+    text-align: start;
+    margin-left: 80px;
+}
 .header{
     display: flex;
     

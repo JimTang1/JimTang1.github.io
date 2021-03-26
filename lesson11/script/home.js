@@ -14,9 +14,9 @@ window.addEventListener("load", (event)=>{
         console.log(jsonResult);
         jsonResult.towns.forEach(
             town =>{
-                if(town.name == "Preston" ||
-                town.name == "Fish Haven" ||
-                town.name == "Soda Springs"){
+                // if(town.name == "Preston" ||
+                // town.name == "Fish Haven" ||
+                // town.name == "Soda Springs"){
                 let section = document.createElement('section');
                 let div = document.createElement('div');
                 let div2 = document.createElement('div');
@@ -26,7 +26,10 @@ window.addEventListener("load", (event)=>{
                 let currentPopulation = document.createElement('p');
                 let averageRainfall = document.createElement('p');
                 let image = document.createElement('img');
+                let events = document.createElement('h3');
+                let hr = document.createElement("hr");
 
+                
                 name.textContent = town.name;
                 span.textContent = town.motto;
                 yearFounded.textContent = "Year Founded: " + town.yearFounded;
@@ -34,7 +37,10 @@ window.addEventListener("load", (event)=>{
                 averageRainfall.textContent = "Annual Rain Fall: " + town.averageRainfall;
                 image.setAttribute('src',"images/" + town.photo);
                 image.setAttribute('alt',town.name);
-
+                events.textContent = "Events:";
+                
+                
+                
                 
                 div2.appendChild(name);
                 div2.appendChild(span);
@@ -42,13 +48,20 @@ window.addEventListener("load", (event)=>{
                 div2.appendChild(currentPopulation);
                 div2.appendChild(averageRainfall);
                 div.appendChild(image);
+                div.appendChild(hr);
+                div.appendChild(events);
+                town.events.forEach((event =>{
+                    e = document.createElement('p');
+                    e.classList.add('event');
+                    e.textContent = event;
+                    div.appendChild(e);
+                }));
                 section.appendChild(div2);
                 section.appendChild(div);
 
                 
                 document.querySelector('.content').appendChild(section);
-                //document.querySelector('.content').appendChild(div);
-                }
+                // }
             }
         )
     })
