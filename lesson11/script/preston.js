@@ -66,7 +66,7 @@ getDay();
 
 
 
-getBanner =() =>{
+getPrestonBanner =() =>{
     let banner = document.querySelector(".banner");
     banner.textContent = 
     `
@@ -75,4 +75,23 @@ getBanner =() =>{
     `;
 }
 
-getBanner();
+// getsodaSpringsBanner =() =>{
+//     let banner = document.querySelector(".ssBanner");
+//     banner.textContent = 
+//     `
+//     Soda Springs Pancakes in the Park!  
+//     9:00 a.m. Saturday at the city park pavilion.
+//     `;
+// }
+
+// getfishHavenBanner =() =>{
+//     let banner = document.querySelector(".pBanner");
+//     banner.textContent = 
+//     `
+//     Preston Pancakes in the Park!  
+//     9:00 a.m. Saturday at the city park pavilion.
+//     `;
+// }
+
+getPrestonBanner();
+
