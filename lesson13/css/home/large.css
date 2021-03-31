@@ -3,6 +3,11 @@
         max-width: 1500px;
         margin: auto;
     }
+
+    .img-jesus{
+        width: 950px;
+        height: 375px;
+    }
     
     nav{
         max-width:1500px;

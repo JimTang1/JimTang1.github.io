@@ -85,7 +85,7 @@ window.addEventListener("load", (event)=>{
                 let hr = document.createElement("hr");
                 let address = document.createElement('p');
                 let state = document.createElement('p');
-                let zip = document.createElement('p');
+                let hotel = document.createElement('a');
 
 
 
@@ -95,14 +95,17 @@ window.addEventListener("load", (event)=>{
                 info.textContent = "Information: ";
                 address.textContent = temple.address + "," + temple.city;
                 state.textContent = temple.state + " " + temple.zip;
-
+                hotel.setAttribute('href', temple.hotel);
+                hotel.textContent = "Make Reservation!";
+                console.log(hotel);
 
                 div2.appendChild(name);
                 div.appendChild(image);
-                div.appendChild(hr);
-                div.appendChild(info);
-                div.appendChild(address);
-                div.appendChild(state);
+                div2.appendChild(hr);
+                div2.appendChild(info);
+                div2.appendChild(address);
+                div2.appendChild(state);
+                div2.appendChild(hotel);
 
                 section.appendChild(div2);
                 section.appendChild(div);

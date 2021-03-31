@@ -7,7 +7,8 @@
             "city":"Payson",
             "state":"UT",
             "zip":84651,
-            "intro":""
+            "intro":"",
+            "hotel":"./payson-hotel.html"
         },
         {
             "name": "Hawaii",
@@ -16,7 +17,8 @@
             "city":"Laie",
             "state":"HI",
             "zip":96762,
-            "intro":""
+            "intro":"",
+            "hotel":"./hawaii-hotel.html"
         },
         {
             "name": "Mesa",
@@ -25,7 +27,8 @@
             "city":"Mesa",
             "state":"AZ",
             "zip":85204,
-            "intro":""
+            "intro":"",
+            "hotel":"./mesa-hotel.html"
         },
         {
             "name": "Provo City",
@@ -34,7 +37,8 @@
             "city":"Provo",
             "state":"UT",
             "zip":84601,
-            "intro":""
+            "intro":"",
+            "hotel":"./provo-hotel.html"
         }
     ]
 }
