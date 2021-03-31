@@ -21,7 +21,7 @@ header, footer{
 }
 
 .header h1{
-    font-size: 23px;
+    font-size: 18px;
     margin: 0px;
 }
 
@@ -34,10 +34,10 @@ header, footer{
 }
 
 nav .ham{
-    width: 35px;
+    width: 8px;
     position: absolute;
-    right: 10px;
-    top: 55px;
+    right: 0px;
+    top: 46px;
 }
 
 .wayfinding{
@@ -66,6 +66,7 @@ footer h1{
     width: 75px;
     height: 75px;
     margin: 10px;
+    border-radius: 50px;
 }
 nav{
     margin: 0 auto;
@@ -128,9 +129,8 @@ nav, ul:hover{
 section{
     text-align: center;
     margin: 5px 25px;
-    background-color: #FAEBD7;
+    background-color: while;
     border-style: ridge;
-    
 }
 
 div{

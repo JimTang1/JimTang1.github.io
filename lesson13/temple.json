@@ -1,0 +1,40 @@
+{
+    "Temples":[
+        {
+            "name": "Payson",
+            "imageurl": "./images/payson.jpg",
+            "address":"1494 S 930 W",
+            "city":"Payson",
+            "state":"UT",
+            "zip":84651,
+            "intro":""
+        },
+        {
+            "name": "Hawaii",
+            "imageurl": "./images/hawaii.jpg",
+            "address":"55-600 Naniloa Loop",
+            "city":"Laie",
+            "state":"HI",
+            "zip":96762,
+            "intro":""
+        },
+        {
+            "name": "Mesa",
+            "imageurl": "./images/mesa.jpg",
+            "address":"101 S Lesueur",
+            "city":"Mesa",
+            "state":"AZ",
+            "zip":85204,
+            "intro":""
+        },
+        {
+            "name": "Provo City",
+            "imageurl": "./images/provo-city.jpg",
+            "address":"50 S University Ave",
+            "city":"Provo",
+            "state":"UT",
+            "zip":84601,
+            "intro":""
+        }
+    ]
+}

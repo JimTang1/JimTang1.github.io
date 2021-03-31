@@ -3,6 +3,7 @@
     .logo{
         width: 150px;
         height: 150px;
+        border-radius: 90px;
     }
 
     .header .motto {
