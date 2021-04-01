@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/home/main.css">
     <link rel="stylesheet" href="css/home/mid.css">
     <link rel="stylesheet" href="css/home/large.css">
+    <link rel="stylesheet" href="css/reservation/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 
@@ -35,6 +36,61 @@
     </nav>
 
     <main>
+        <div class ='contact-form'>
+            <h2>Make your reservation:</h2>
+            <div class ='txtb'>
+                <label for='subject'>Full Name:</label>
+                <input type='text' id='subject' name='subject' value='' placeholder = 'Please Enter Your Name'
+                pattern = "[A-Za-z]{3}"
+                title = "Please enter letter only"
+                required>
+            </div>
+
+            <div class ='txtb'>
+                <label for="number">Phone number:</label>
+                <input type="tel" id="number" name ="number" 
+                 pattern= "[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                 placeholder="000-000-0000"
+                 required> 
+            </div>
+
+            <div class ='txtb'>
+                <label for="email">Email:</label>
+                <input type="email" id = "email" name = "email"
+                title = "Please enter email address"
+                required>
+            </div>
+
+            <div class ='txtb'>
+                <label for="zipCode">Zip Code:</label>
+                <input type="number" id="zipCode" name = "zipCode" 
+                placeholder="Enter zip code."
+                required>
+            </div>
+
+            <div class ='txtb'>
+                <label for="reserveDate">Reserve Data:</label>
+                <input type="date" id="reserveDate" name = "reserveDate" required>
+            </div>
+
+            <div class ='txtb'>
+                <label for="Temple">Temple:</label>
+                <select name="Temple" id="Temple">
+                    <option value="Payson">Payson Temple</option>
+                    <option value="Mesa">Mesa Temple</option>
+                    <option value="Hawaii">Hawaii Temple</option>
+                    <option value="Provo-City">Provo-City Temple</option>
+                </select>
+            </div>
+
+            <div class ='txtb'>
+                <label id='content_title' for='content' name='content_title'>Any requirement:</label>
+				<textarea id='content' name='content'></textarea></p>	
+            </div>
+
+
+            <input type='button' value='Reser!' id='submit'/>
+        </div>	
     </main>
     <br>
     <footer>
