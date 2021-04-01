@@ -61,6 +61,10 @@ header, footer{
     margin-bottom: 15px;
 }
 
+.temple-email{
+    font-family: 'Saira Condensed';
+}
+
 nav .ham{
     width: 8px;
     position: absolute;

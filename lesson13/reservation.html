@@ -28,7 +28,7 @@
         <ul class="navigation">
             <li><a href="#" class="ham">&#9776;</a></li>
             <li><a href='./index.html' class="link">Home</a></li>
-            <li><a href='./temples.html' class="link">temple</a></li>
+            <li><a href='./temples.html' class="link">Temple</a></li>
             <li><a href='#' class="wayfinding">Reservation</a></li>
             <li><a href='./service.html' class="link">Service</a></li>
             <li><a href='./contact.html' class="link">Contact</a></li>
@@ -50,7 +50,7 @@
                 <label for="number">Phone number:</label>
                 <input type="tel" id="number" name ="number" 
                  pattern= "[0-9]{3}-[0-9]{3}-[0-9]{4}" 
-                 placeholder="000-000-0000"
+                 placeholder="***-***-****"
                  required> 
             </div>
 
@@ -74,7 +74,14 @@
             </div>
 
             <div class ='txtb'>
-                <label for="Temple">Temple:</label>
+                <label for="people">People:</label>
+                <input type="people" id="people" name = "people" 
+                placeholder="How many people?"
+                required>
+            </div>
+
+            <div class ='txtb'>
+                <label for="Temple">Which temple's hotel:</label>
                 <select name="Temple" id="Temple">
                     <option value="Payson">Payson Temple</option>
                     <option value="Mesa">Mesa Temple</option>
@@ -84,12 +91,22 @@
             </div>
 
             <div class ='txtb'>
+                <label for="roomType">Room Type:</label>
+                <select name="roomType" id="roomType">
+                    <option value="kingBed">1 king size bed / Family</option>
+                    <option value="queenBed">2 Queen size beds</option>
+                    <option value="bed">3 beds</option>
+                    <option value="floor">Sleep on the floor</option>
+                </select>
+            </div>
+
+            <div class ='txtb'>
                 <label id='content_title' for='content' name='content_title'>Any requirement:</label>
 				<textarea id='content' name='content'></textarea></p>	
             </div>
 
 
-            <input type='button' value='Reser!' id='submit'/>
+            <input type='button' value='Submit' id='submit'/>
         </div>	
     </main>
     <br>
@@ -108,7 +125,7 @@
                     'Josefin Slab',
                     'Saira Condensed',
                     'Potta One',
-
+                    'Source Serif Pro',
                 ]
             }
         });

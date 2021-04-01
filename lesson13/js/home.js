@@ -36,7 +36,7 @@ window.addEventListener("load", (event)=>{
                 info.textContent = "Information: ";
                 address.textContent = temple.address + "," + temple.city + " " + temple.state + " " + temple.zip;
                 hotel.setAttribute('href', temple.hotel);
-                hotel.textContent = "Hotel near by";
+                hotel.textContent = "Reserve Hotel nearby";
                 intro.textContent = temple.intro;
                 space.textContent = "";
 
