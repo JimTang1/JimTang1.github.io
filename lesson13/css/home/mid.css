@@ -14,7 +14,12 @@
         width: 729px;
         height: 270px;
     }
-    
+    .quote{
+        max-width: 790px;
+    }
+    .temple-name{
+        width: 665px;
+    }
     
     nav{
         max-width: 100%;

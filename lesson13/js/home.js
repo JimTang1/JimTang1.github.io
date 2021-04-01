@@ -86,26 +86,34 @@ window.addEventListener("load", (event)=>{
                 let address = document.createElement('p');
                 let state = document.createElement('p');
                 let hotel = document.createElement('a');
+                let intro = document.createElement('p');
+                let br = document.createElement('br');
+                let space = document.createElement('p');
 
-
-
+                div.className += "temple-img";
+                div2.className += "temple-name";
+                hotel.className += "hotel-link";
+                intro.className += "temple-intro";
                 name.textContent = temple.name;
                 image.setAttribute('src',temple.imageurl);
                 image.setAttribute('alt',temple.name);
                 info.textContent = "Information: ";
-                address.textContent = temple.address + "," + temple.city;
-                state.textContent = temple.state + " " + temple.zip;
+                address.textContent = temple.address + "," + temple.city + " " + temple.state + " " + temple.zip;
                 hotel.setAttribute('href', temple.hotel);
-                hotel.textContent = "Make Reservation!";
-                console.log(hotel);
+                hotel.textContent = "Hotel near by";
+                intro.textContent = temple.intro;
+                space.textContent = "";
 
                 div2.appendChild(name);
-                div.appendChild(image);
                 div2.appendChild(hr);
-                div2.appendChild(info);
                 div2.appendChild(address);
                 div2.appendChild(state);
-                div2.appendChild(hotel);
+                div.appendChild(image);
+                div.appendChild(hr);
+                div.appendChild(info);
+                div.appendChild(intro);
+                div.appendChild(hotel);
+                div.appendChild(space);
 
                 section.appendChild(div2);
                 section.appendChild(div);

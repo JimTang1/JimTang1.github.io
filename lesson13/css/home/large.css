@@ -3,12 +3,21 @@
         max-width: 1500px;
         margin: auto;
     }
-
+    .header .motto h1{
+        font-size: 30px;
+    }
     .img-jesus{
         width: 950px;
         height: 375px;
     }
     
+    .quote{
+        max-width: 1040px;
+    }
+
+    .temple-name{
+        width: 380px;
+    }
     nav{
         max-width:1500px;
     }
