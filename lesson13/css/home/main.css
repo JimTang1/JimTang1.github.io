@@ -23,7 +23,7 @@ header, footer{
 .header h1{
     font-size: 18px;
     margin: 0px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Source Serif Pro', serif;
 
 }
 
@@ -95,7 +95,7 @@ nav{
     margin: 0 auto;
     max-width: 555px;
     background-color: #7A9E9F;
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .navigation{

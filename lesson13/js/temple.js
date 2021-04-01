@@ -19,40 +19,64 @@ window.addEventListener("load", (event)=>{
                 let image = document.createElement('img');  
                 let info = document.createElement('p');
                 let hr = document.createElement("hr");
+                let hr2 = document.createElement("hr");
                 let address = document.createElement('p');
-                let state = document.createElement('p');
                 let hotel = document.createElement('a');
-                let intro = document.createElement('p');
-                let br = document.createElement('br');
+                let site = document.createElement('p');
                 let space = document.createElement('p');
+                let phone = document.createElement('p');
+                let services = document.createElement('p');
+                let map = document.createElement('a');
+
 
                 div.className += "temple-img";
                 div2.className += "temple-name";
                 hotel.className += "hotel-link";
-                intro.className += "temple-intro";
+                site.className += "temple-site";
+                image.className +="temple-img";
+                map.className += "temple-map";
+
                 name.textContent = temple.name;
                 image.setAttribute('src',temple.imageurl);
                 image.setAttribute('alt',temple.name);
-                info.textContent = "Information: ";
+                info.textContent = "Temple-Site: ";
                 address.textContent = temple.address + "," + temple.city + " " + temple.state + " " + temple.zip;
                 hotel.setAttribute('href', temple.hotel);
                 hotel.textContent = "Hotel near by";
-                intro.textContent = temple.intro;
+                site.textContent = temple.TempleSite;
                 space.textContent = "";
+                phone.textContent = temple.phone;
+                services.textContent = "Services:"
+                map.setAttribute('href', temple.map);
+                map.textContent = "Google Map";
 
                 div2.appendChild(name);
-                div2.appendChild(hr);
                 div2.appendChild(address);
-                div2.appendChild(state);
-                div.appendChild(image);
-                div.appendChild(hr);
-                div.appendChild(info);
-                div.appendChild(intro);
-                div.appendChild(hotel);
-                div.appendChild(space);
+                div2.appendChild(map);
+                div2.appendChild(phone);
+                div2.appendChild(hr);
+                
+                console.log(temple.services);
 
-                section.appendChild(div2);
+                div2.appendChild(services);
+                temple.services.forEach((service =>{
+                    s = document.createElement('p');
+                    s.classList.add('service');
+                    s.textContent = service;
+                    div2.appendChild(s);
+                }));
+                div2.appendChild(hr2);
+
+                
+                div2.appendChild(info);
+                div2.appendChild(site);
+                div2.appendChild(hotel);
+                div2.appendChild(space);
+                div.appendChild(image);
+
+
                 section.appendChild(div);
+                section.appendChild(div2);
                 document.querySelector('.content').appendChild(section);
             }
         )
