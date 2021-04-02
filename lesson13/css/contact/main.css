@@ -1,0 +1,23 @@
+h1,h2,h3{
+    font-family: 'Source Serif Pro', serif;
+
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size:25px;
+}
+.info{
+    text-align: initial;
+    margin-left: 80px;
+}
+.icon{
+    width: 50px;
+    border-radius: 200px;
+}
+.map{
+    text-align: center;
+}
