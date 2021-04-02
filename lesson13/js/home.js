@@ -19,10 +19,13 @@ window.addEventListener("load", (event)=>{
                 let image = document.createElement('img');  
                 let info = document.createElement('p');
                 let hr = document.createElement("hr");
+                let hr2 = document.createElement("hr");
                 let address = document.createElement('p');
                 let state = document.createElement('p');
                 let hotel = document.createElement('a');
                 let intro = document.createElement('p');
+                let hotelname = document.createElement('p');
+                let hotellink = document.createElement('a');
                 let br = document.createElement('br');
                 let space = document.createElement('p');
 
@@ -30,15 +33,19 @@ window.addEventListener("load", (event)=>{
                 div2.className += "temple-name";
                 hotel.className += "hotel-link";
                 intro.className += "temple-intro";
+                hotellink.className += "hotel-link";
                 name.textContent = temple.name;
                 image.setAttribute('src',temple.imageurl);
                 image.setAttribute('alt',temple.name);
                 info.textContent = "Information: ";
                 address.textContent = temple.address + "," + temple.city + " " + temple.state + " " + temple.zip;
                 hotel.setAttribute('href', temple.hotel);
-                hotel.textContent = "Reserve Hotel nearby";
+                hotel.textContent = "Reserve the Hotel";
                 intro.textContent = temple.intro;
                 space.textContent = "";
+                hotelname.textContent = "Hotel: "+ temple.hotelName;
+                hotellink.setAttribute('href', temple.hotelLink);
+                hotellink.textContent = "Visit us ";
 
                 div2.appendChild(name);
                 div2.appendChild(hr);
@@ -48,6 +55,10 @@ window.addEventListener("load", (event)=>{
                 div.appendChild(hr);
                 div.appendChild(info);
                 div.appendChild(intro);
+                div.appendChild(hr2);
+                div.appendChild(hotelname);
+                div.appendChild(hotellink);
+
                 div.appendChild(hotel);
                 div.appendChild(space);
 

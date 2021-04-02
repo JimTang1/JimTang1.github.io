@@ -56,25 +56,25 @@ window.addEventListener("load", (event)=>{
                 div3.innerHTML = `
                 <table>
                 <tr>
-                    <th class ="day1"></th>
-                    <th class ="day2"></th>
-                    <th class ="day3"></th>
-                    <th class ="day4"></th>
-                    <th class ="day5"></th>
+                    <th class ="day1${temple.name}"></th>
+                    <th class ="day2${temple.name}"></th>
+                    <th class ="day3${temple.name}"></th>
+                    <th class ="day4${temple.name}"></th>
+                    <th class ="day5${temple.name}"></th>
                 </tr>
                 <tr>
-                    <td><img src="1" alt="img1" class = "img1"></td>
-                    <td><img src="1" alt="img2" class = "img2"></td>
-                    <td><img src="1" alt="img3" class = "img3"></td>
-                    <td><img src="1" alt="img4" class = "img4"></td>
-                    <td><img src="1" alt="img5" class = "img5"></td>
+                    <td><img src="1" alt="img1" class = "img1${temple.name}"></td>
+                    <td><img src="1" alt="img2" class = "img2${temple.name}"></td>
+                    <td><img src="1" alt="img3" class = "img3${temple.name}"></td>
+                    <td><img src="1" alt="img4" class = "img4${temple.name}"></td>
+                    <td><img src="1" alt="img5" class = "img5${temple.name}"></td>
                 </tr>
                 <tr>
-                    <td class ="temp1"></td>
-                    <td class ="temp2"></td>
-                    <td class ="temp3"></td>
-                    <td class ="temp4"></td>
-                    <td class ="temp5"></td>
+                    <td class ="temp1${temple.name}"></td>
+                    <td class ="temp2${temple.name}"></td>
+                    <td class ="temp3${temple.name}"></td>
+                    <td class ="temp4${temple.name}"></td>
+                    <td class ="temp5${temple.name}"></td>
                 </tr>
             </table>
                 `
@@ -86,7 +86,6 @@ window.addEventListener("load", (event)=>{
                 div2.appendChild(email);
                 div2.appendChild(hr);
                 
-                console.log(temple.services);
 
                 div2.appendChild(services);
                 temple.services.forEach((service =>{

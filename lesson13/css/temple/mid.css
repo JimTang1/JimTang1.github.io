@@ -61,4 +61,8 @@
       section:nth-child(odd) {
           flex-direction: row-reverse;
       } */
+      table{
+        width: 500px;
+        margin: 45px 0px;
+    }
 }

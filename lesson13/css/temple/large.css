@@ -73,4 +73,8 @@
           flex-direction: row-reverse;
       }
 
+    table{
+        width: 600px;
+        margin: 45px 0px;
+    }
 }

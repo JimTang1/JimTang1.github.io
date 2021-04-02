@@ -35,8 +35,6 @@ window.addEventListener("load",(e)=>{
       return;
     }
 
-    console.log(time);
-
 
     for(let i = 0; i < lists.length;i++){
       let dayTime = lists[i].dt_txt;
@@ -45,15 +43,13 @@ window.addEventListener("load",(e)=>{
       let timeInDay = dayTime.substr(dayTime.indexOf(' ') + 1);
       
       if(time == timeInDay){
-        document.querySelector('.day' + day).textContent = date;  
-        document.querySelector('.temp' + day).textContent = lists[i].main.temp;
+        document.querySelector('.day' + day +'Payson').textContent = date;  
+        document.querySelector('.temp' + day+'Payson').textContent = lists[i].main.temp+'°F';
         const imagesrc = 'https://openweathermap.org/img/w/' + lists[i].weather[0].icon + '.png'  // note the concatenation
         const desc = lists[i].weather[0].description;  // note how we reference the weather array
-        console.log(imagesrc);
-        console.log(desc);
         
-        document.querySelector('.img'+day).setAttribute('src', imagesrc);  // focus on the setAttribute() method
-        document.querySelector('.img'+day).setAttribute('alt', desc);     
+        document.querySelector('.img'+day+'Payson').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+        document.querySelector('.img'+day+'Payson').setAttribute('alt', desc);     
         day++; 
       }
     }
@@ -91,8 +87,6 @@ window.addEventListener("load",(e)=>{
       return;
     }
 
-    console.log(time);
-
 
     for(let i = 0; i < lists.length;i++){
       let dayTime = lists[i].dt_txt;
@@ -101,15 +95,13 @@ window.addEventListener("load",(e)=>{
       let timeInDay = dayTime.substr(dayTime.indexOf(' ') + 1);
       
       if(time == timeInDay){
-        document.querySelector('.day' + day).textContent = date;  
-        document.querySelector('.temp' + day).textContent = lists[i].main.temp;
+        document.querySelector('.day' + day +'Provo').textContent = date;  
+        document.querySelector('.temp' + day +'Provo').textContent = lists[i].main.temp+'°F';
         const imagesrc = 'https://openweathermap.org/img/w/' + lists[i].weather[0].icon + '.png'  // note the concatenation
         const desc = lists[i].weather[0].description;  // note how we reference the weather array
-        console.log(imagesrc);
-        console.log(desc);
         
-        document.querySelector('.img'+day).setAttribute('src', imagesrc);  // focus on the setAttribute() method
-        document.querySelector('.img'+day).setAttribute('alt', desc);     
+        document.querySelector('.img'+day +'Provo').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+        document.querySelector('.img'+day +'Provo').setAttribute('alt', desc);     
         day++; 
       }
     }
@@ -147,8 +139,6 @@ window.addEventListener("load",(e)=>{
       return;
     }
 
-    console.log(time);
-
 
     for(let i = 0; i < lists.length;i++){
       let dayTime = lists[i].dt_txt;
@@ -157,15 +147,13 @@ window.addEventListener("load",(e)=>{
       let timeInDay = dayTime.substr(dayTime.indexOf(' ') + 1);
       
       if(time == timeInDay){
-        document.querySelector('.day' + day).textContent = date;  
-        document.querySelector('.temp' + day).textContent = lists[i].main.temp;
+        document.querySelector('.day' + day + 'Hawaii').textContent = date;  
+        document.querySelector('.temp' + day + 'Hawaii').textContent = lists[i].main.temp+'°F';
         const imagesrc = 'https://openweathermap.org/img/w/' + lists[i].weather[0].icon + '.png'  // note the concatenation
         const desc = lists[i].weather[0].description;  // note how we reference the weather array
-        console.log(imagesrc);
-        console.log(desc);
         
-        document.querySelector('.img'+day).setAttribute('src', imagesrc);  // focus on the setAttribute() method
-        document.querySelector('.img'+day).setAttribute('alt', desc);     
+        document.querySelector('.img'+day + 'Hawaii').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+        document.querySelector('.img'+day + 'Hawaii').setAttribute('alt', desc);     
         day++; 
       }
     }
@@ -203,7 +191,6 @@ window.addEventListener("load",(e)=>{
       return;
     }
 
-    console.log(time);
 
 
     for(let i = 0; i < lists.length;i++){
@@ -213,15 +200,13 @@ window.addEventListener("load",(e)=>{
       let timeInDay = dayTime.substr(dayTime.indexOf(' ') + 1);
       
       if(time == timeInDay){
-        document.querySelector('.day' + day).textContent = date;  
-        document.querySelector('.temp' + day).textContent = lists[i].main.temp;
+        document.querySelector('.day' + day +'Mesa').textContent = date;  
+        document.querySelector('.temp' + day +'Mesa').textContent = lists[i].main.temp +'°F';
         const imagesrc = 'https://openweathermap.org/img/w/' + lists[i].weather[0].icon + '.png'  // note the concatenation
         const desc = lists[i].weather[0].description;  // note how we reference the weather array
-        console.log(imagesrc);
-        console.log(desc);
         
-        document.querySelector('.img'+day).setAttribute('src', imagesrc);  // focus on the setAttribute() method
-        document.querySelector('.img'+day).setAttribute('alt', desc);     
+        document.querySelector('.img'+day +'Mesa').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+        document.querySelector('.img'+day +'Mesa').setAttribute('alt', desc);     
         day++; 
       }
     }

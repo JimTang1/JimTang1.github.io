@@ -49,6 +49,7 @@ header, footer{
     padding:5px;
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 5px;
+    margin: 10px;
 }
 
 .hotel-link:hover{

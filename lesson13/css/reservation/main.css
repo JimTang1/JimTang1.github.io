@@ -9,10 +9,12 @@
     font-family: cursive;
     margin-top: 50px;
     margin-bottom: 30px;
+    display: grid;
     
 }
 
 .contact-form h2{
+    font-size: 28px;
     margin-top: 0;
     font-weight: 600;
     font-family: 'Source Serif Pro', serif;
@@ -42,4 +44,11 @@
     outline: none;
     font-size: 18px;
     margin-top: 6px;
+}
+
+input{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Source Serif Pro', serif;
+
 }

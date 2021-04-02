@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1000px){
+    main{
+        display: flex;
+        width: 800px;
+    }
+    
+    section{
+        border: none;
+    }
+    .reception{
+        width: 300px;
+        height: 170px;
+    }
+    
+    .reception:hover{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .missionary:hover{
+        width: 400px;
+        height: 300px;
+    }
+}
