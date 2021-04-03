@@ -5,6 +5,7 @@ h1,h2,h3{
 
 h2{
     font-size: 20px;
+    text-align: center;
 }
 
 main div{
@@ -17,6 +18,13 @@ img{
 
 .clcik{
     text-align: center;
+}
+
+.lastPage{
+    background: #4F6367;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    
 }
 
 /* hawaii office  */
@@ -108,4 +116,22 @@ img{
 
 .paysonOffice #click{
     text-align: center;
+}
+
+/*-------------------*/
+.prvoOffice .info{
+    border-style: none;
+    margin-left: 25px;
+}
+.paysonOffice .info{
+    border-style: none;
+    margin-left: 25px;
+}
+.mesaOffice .info{
+    border-style: none;
+    margin-left: 25px;
+}
+.hawaiiOffice .info{
+    border-style: none;
+    margin-left: 25px;
 }

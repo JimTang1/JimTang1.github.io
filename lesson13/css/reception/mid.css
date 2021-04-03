@@ -1,0 +1,32 @@
+
+@media only screen and (min-width:555px){
+    main #reception-img{
+        width: 800px;
+    }
+
+    .place{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .setUp{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .setUp img{
+        width: 350px;
+        height: 250px;
+    }
+
+    .menu{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .menu img{
+        width: 350px;
+        height: 250px;
+    }
+
+}

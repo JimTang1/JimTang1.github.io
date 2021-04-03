@@ -1,0 +1,74 @@
+
+@media only screen and (min-width:555px){
+    main{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .paysonOffice{
+        border-style: none;
+    }
+
+    .hawaiiOffice{
+        border-style: none;
+    }
+
+    .mesaOffice{
+        border-style: none;
+    }
+    .prvoOffice{
+        border-style: none;
+    }
+
+    .prvoOffice .free{
+        border-top: groove;
+        border-bottom: groove;
+    }
+    .paysonOffice .free{
+        border-top: groove;
+        border-bottom: groove;
+    }
+    .mesaOffice .free{
+        border-top: groove;
+        border-bottom: groove;
+    }
+    .hawaiiOffice .free{
+        border-top: groove;
+        border-bottom: groove;
+    }
+
+    .prvoOffice .special{
+        border-bottom: groove;
+    }
+    .hawaiiOffice .special{
+        border-bottom: groove;
+    }
+    .mesaOffice .special{
+        border-bottom: groove;
+    }
+    .paysonOffice .special{
+        border-bottom: groove;
+    }
+
+    /* .prvoOffice .info{
+        border-style: none;
+        margin-left: 25px;
+    }
+    .paysonOffice .info{
+        border-style: none;
+        margin-left: 25px;
+    }
+    .mesaOffice .info{
+        border-style: none;
+        margin-left: 25px;
+    }
+    .hawaiiOffice .info{
+        border-style: none;
+        margin-left: 25px;
+    } */
+}

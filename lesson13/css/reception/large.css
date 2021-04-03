@@ -1,0 +1,55 @@
+@media only screen and (min-width: 1000px){
+
+    img{
+        width: 650px;
+        height: 450px;
+    }
+    main #reception-img{
+        display: none;
+    }
+
+    img:hover{
+        width: 650px;
+        height: 450px;
+        z-index: 2;
+    }
+
+    /* .place{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    } */
+
+    .setUp{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .setUp img{
+        width: 350px;
+        height: 250px;
+    }
+
+    .setUp img:hover{
+        width: 650px;
+        height: 450px;
+        z-index: 2;
+    }
+
+    .menu{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .menu img{
+        width: 350px;
+        height: 250px;
+    }
+
+    .menu img:hover{
+        width: 650px;
+        height: 450px;
+        z-index: 2;
+    }
+
+    
+}
