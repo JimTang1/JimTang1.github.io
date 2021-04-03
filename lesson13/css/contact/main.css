@@ -11,8 +11,11 @@ h2{
     font-size:25px;
 }
 .info{
-    text-align: initial;
-    margin-left: 80px;
+    text-align: center;
+    margin: auto 30px;
+    border-style:solid;
+    background-color: #4F6367;
+    color: white;
 }
 .icon{
     width: 50px;

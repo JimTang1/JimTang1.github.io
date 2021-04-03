@@ -1,4 +1,13 @@
 
 @media only screen and (min-width:555px){
+    main{
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 
+    .info{
+        width: 310px;
+        margin: auto;
+    }
 }

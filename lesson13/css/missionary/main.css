@@ -1,0 +1,111 @@
+h1,h2,h3{
+    font-family: 'Source Serif Pro', serif;
+
+}
+
+h2{
+    font-size: 20px;
+}
+
+main div{
+    border-style: groove;
+}
+
+img{
+    width: 300px;
+}
+
+.clcik{
+    text-align: center;
+}
+
+/* hawaii office  */
+.hawaiiOffice .free{
+    border-style: none;
+    margin: 30px;
+}
+
+.hawaiiOffice .special{
+    border-style: none;
+    margin: 30px;
+
+}
+.hawaiiOffice .special p{
+    margin-bottom: 15px;
+}
+
+.hawaiiOffice p{
+    text-align: left;
+}
+
+.hawaiiOffice #click{
+    text-align: center;
+}
+
+/* mesa office  */
+.mesaOffice .free{
+    border-style: none;
+    margin: 30px;
+}
+
+.mesaOffice .special{
+    border-style: none;
+    margin: 30px;
+
+}
+.mesaOffice .special p{
+    margin-bottom: 15px;
+}
+
+.mesaOffice p{
+    text-align: left;
+}
+
+.mesaOffice #click{
+    text-align: center;
+}
+
+/* prvoOffice office  */
+.prvoOffice .free{
+    border-style: none;
+    margin: 30px;
+}
+
+.prvoOffice .special{
+    border-style: none;
+    margin: 30px;
+
+}
+.prvoOffice .special p{
+    margin-bottom: 15px;
+}
+
+.prvoOffice p{
+    text-align: left;
+}
+
+.prvoOffice #click{
+    text-align: center;
+}
+/* paysonOffice office  */
+.paysonOffice .free{
+    border-style: none;
+    margin: 30px;
+}
+
+.paysonOffice .special{
+    border-style: none;
+    margin: 30px;
+
+}
+.paysonOffice .special p{
+    margin-bottom: 15px;
+}
+
+.paysonOffice p{
+    text-align: left;
+}
+
+.paysonOffice #click{
+    text-align: center;
+}
