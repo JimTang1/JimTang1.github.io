@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/contact/main.css">
     <link rel="stylesheet" href="css/contact/mid.css">
     <link rel="stylesheet" href="css/contact/large.css">
+    <link rel="stylesheet" href="css/reservation/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 
@@ -37,7 +38,42 @@
         </ul>
     </nav>
     <h1>Contact Us!</h1>
+    <div class ='contact-form'>
+        <h2>Let us know What you think:</h2>
+        <div class ='txtb'>
+            <label for='subject'>Full Name:</label>
+            <input type='text' id='subject' name='subject' value='' placeholder = 'Please Enter Your Name'
+            pattern = "[A-Za-z]{3}"
+            title = "Please enter letter only"
+            required>
+        </div>
+
+        <div class ='txtb'>
+            <label for="number">Phone number:</label>
+            <input type="tel" id="number" name ="number" 
+             pattern= "[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+             placeholder="***-***-****"
+             required> 
+        </div>
+
+        <div class ='txtb'>
+            <label for="email">Email:</label>
+            <input type="email" id = "email" name = "email"
+            title = "Please enter email address"
+            required>
+        </div>
+
+        <div class ='txtb'>
+            <label id='content_title' for='content' name='content_title'>Your thought:</label>
+            <textarea id='content' name='content'></textarea></p>	
+        </div>
+
+
+        <input type='button' value='Submit' id='submit'/>
+    </div>	
     <main>
+        
+        
         <div class="info">
         <h2>Temple Inn & Suites </h2>
 
