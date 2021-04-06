@@ -128,9 +128,9 @@ nav{
     font-weight: bold;
 }
 
-nav, ul:hover{
+/* nav, ul:hover{
     background-color: none;
-}
+} */
 
 .navigation a:hover{
     color: white;
@@ -160,7 +160,7 @@ nav, ul:hover{
 section{
     text-align: center;
     margin: 5px 25px;
-    background-color: while;
+    background-color: white;
     border-style: ridge;
 }
 
